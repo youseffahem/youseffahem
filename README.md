@@ -4,7 +4,7 @@
 <p align="center">
   🎓 Studying <b>Computer Science @ Modern Academy, Maadi (2023 – 2027)</b><br/>
   💡 Passionate about <b>Artificial Intelligence, Machine Learning & Deep Learning</b><br/>
-  📍 From Ebiar, Kaf-alzaiat, Gharbia Governorate – Egypt
+  📍 Egypt
 </p>
 
 ---
