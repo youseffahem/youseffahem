@@ -183,6 +183,31 @@
 </td>
 <td width="50%">
 
+#### 🧮 [Jacobi and Gauss Solver](https://github.com/youseffahem/Jacobi-and-Gauss)
+**Advanced numerical methods for solving linear equation systems**
+- 📐 **Numerical Analysis** | **Mathematical Computing**
+- 🛠️ `Mathematical Algorithms` `Computational Mathematics` `Optimization`
+- 🎯 **Features:** Iterative solvers, convergence analysis, error estimation
+
+</td>
+</tr>
+</table>
+
+### 📱 **Mobile Development & Flutter**
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🏋️ [FitTracker Pro](https://github.com/youseffahem/Gym-App)
+**Ultimate Gym Companion (Mobile App)**
+- 💪 **Fitness Technology** | **Health & Wellness**
+- 🛠️ `Flutter` `Dart` `Firebase`
+- 🎯 **Features:** Intelligent workout planning, exercise & progress tracking, analytics, nutrition insights
+
+</td>
+<td width="50%">
+
 #### 🥁 **Pocket Drum** (In Development)
 **Innovative mobile drumming application**
 - 🎵 **Mobile Development** | **Audio Processing**
@@ -237,18 +262,6 @@
 </td>
 </tr>
 </table>
-
-### 🧮 **Mathematical Computing & Algorithms**
-
-<div align="center">
-
-#### 🧮 [Jacobi and Gauss Solver](https://github.com/youseffahem/Jacobi-and-Gauss)
-**Advanced numerical methods for solving linear equation systems**
-- 📐 **Numerical Analysis** | **Mathematical Computing**
-- 🛠️ `Mathematical Algorithms` `Computational Mathematics` `Optimization`
-- 🎯 **Features:** Iterative solvers, convergence analysis, error estimation
-
-</div>
 
 </div>
 
