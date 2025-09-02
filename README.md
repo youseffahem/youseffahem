@@ -154,7 +154,7 @@
 <tr>
 <td width="50%">
 
-#### 🫀 [Heart Disease Prediction - Full ML Pipeline](https://github.com/youseffahem/Heart_Disease_Project)
+#### 🫀 [Heart Disease Prediction - Full ML Pipeline](https://github.com/youseffahem/Hearts_Disease_Project)
 **Complete machine learning pipeline for cardiovascular risk assessment**
 - 📊 **Data Science** | **Predictive Modeling**
 - 🛠️ `Python` `Scikit-learn` `Pandas` `NumPy`
