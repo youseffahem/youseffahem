@@ -37,7 +37,7 @@
 🌍 location: "Egypt"
 🎯 specialization: "Artificial Intelligence & Machine Learning"
 🚀 current_role: "Aspiring AI Engineer"
-💡 passion: ["Deep Learning", "NLP", "Intelligent Systems"]
+💡 passion: ["Deep Learning", "NLP", "Computer Vision", "Intelligent Systems"]
 🏆 distinctions: ["Numerical Analysis", "Calculus", "Linear Algebra"]
 ```
 
@@ -69,6 +69,8 @@
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
@@ -154,6 +156,15 @@
 <tr>
 <td width="50%">
 
+#### 🖐️ [Hand Gesture Volume Control](https://github.com/youseffahem/hand-gesture-volume-control)
+**Real-time computer vision system for hands-free volume control**
+- 👁️ **Computer Vision** | **Human-Computer Interaction**
+- 🛠️ `Python` `OpenCV` `MediaPipe` `PyCAW`
+- 🎯 **Features:** Hand tracking, gesture recognition, real-time audio control, visual feedback
+
+</td>
+<td width="50%">
+
 #### 🫀 [Heart Disease Prediction - Full ML Pipeline](https://github.com/youseffahem/Hearts_Disease_Project)
 **Complete machine learning pipeline for cardiovascular risk assessment**
 - 📊 **Data Science** | **Predictive Modeling**
@@ -161,6 +172,8 @@
 - 🎯 **Features:** Data preprocessing, model training, evaluation metrics
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 #### 🤖 **Study Buddy** (Graduation Project - GAIC)
@@ -170,8 +183,6 @@
 - 🎯 **Features:** Intelligent tutoring, personalized learning paths
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 #### 🩺 **Medical DefyBot**
@@ -181,6 +192,8 @@
 - 🎯 **Features:** Medical Q&A, health education, interactive learning
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 #### 🧮 [Jacobi and Gauss Solver](https://github.com/youseffahem/Jacobi-and-Gauss)
@@ -188,6 +201,9 @@
 - 📐 **Numerical Analysis** | **Mathematical Computing**
 - 🛠️ `Mathematical Algorithms` `Computational Mathematics` `Optimization`
 - 🎯 **Features:** Iterative solvers, convergence analysis, error estimation
+
+</td>
+<td width="50%">
 
 </td>
 </tr>
@@ -311,6 +327,10 @@ mindmap
       📊 Advanced Algorithms
       🔬 Research Methods
       💾 Model Optimization
+    👁️ Computer Vision
+      📸 Image Processing
+      🎥 Video Analysis
+      🖐️ Gesture Recognition
     📈 Statistics
       📐 Statistical Analysis
       🎲 Probability Theory
@@ -331,6 +351,7 @@ mindmap
 
 | 🎯 **Focus Area** | 📖 **Resource** | ⏰ **Timeline** | 🎉 **Goal** |
 |:---:|:---:|:---:|:---:|
+| **Computer Vision** | Projects + Documentation | Ongoing | Master CV techniques & applications |
 | **Statistics** | Coursera Specialization | Next 3 Months | Master statistical foundations for ML |
 | **English Proficiency** | Comprehensive Course | Ongoing | Global communication & research |
 | **Advanced ML** | Self-Study + Projects | Continuous | Research-level expertise |
@@ -426,11 +447,14 @@ mindmap
 
 ### 🌐 **Professional Networks**
 <p>
-  <a href="https://www.linkedin.com/in/yousef-fahem0" target="_blank">
+  <a href="https://www.linkedin.com/in/yousef-fahem" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Youssef%20Fahem-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" />
   </a>
   <a href="mailto:yousef.fahem11@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-yousef.fahem11@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" />
+  </a>
+  <a href="https://wa.me/201060996576" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-+20%20106%20099%206576-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=25D366" />
   </a>
   <a href="https://github.com/youseffahem" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-youseffahem-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" />
@@ -441,8 +465,9 @@ mindmap
 <p>
   <img src="https://img.shields.io/badge/🔬%20Research%20Projects-Open-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/🤖%20AI%20Development-Available-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/📚%20Knowledge%20Sharing-Always-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🌟%20Open%20Source-Contributing-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/👁️%20Computer%20Vision-Exploring-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/📚%20Knowledge%20Sharing-Always-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🌟%20Open%20Source-Contributing-teal?style=for-the-badge" />
 </p>
 
 </div>
