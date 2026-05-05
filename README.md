@@ -69,7 +69,8 @@ Computer Science student at Modern Academy, Maadi (2023–2027), specializing in
 | Institution | Program | Period |
 |---|---|---|
 | Modern Academy, Maadi | B.Sc. Computer Science | 2023 – 2027 |
-| Microsoft × Sprints | AI & ML Summer Camp | 2024 |
+| Microsoft × Sprints | AI & ML Summer Camp ([View Certificate](https://sprints.ai/en-eg/journeys/learning/ID%20-%20SPR%20-%20I92F5Y/view-certificate-serial)) | 2024 |
+| Ex-Fresher | Python Programming ([View Certificate](https://drive.google.com/file/d/1iwOjD47GwBEmMF3y_Fk5r1kqdF14VJzQ/view)) | 6 Months |
 | IT-GATE | AI & Machine Learning Intensive | 1 Month |
 
 ---
