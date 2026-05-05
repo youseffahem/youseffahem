@@ -21,9 +21,9 @@
 
 Computer Science student at Modern Academy, Maadi (2023–2027), specializing in Artificial Intelligence and Machine Learning. I build end-to-end ML systems — from data pipelines to deployed models — and I'm currently developing a generative AI chatbot as my graduation project.
 
-- 🎯 Focus: Deep Learning, NLP, Computer Vision
-- 🏅 Academic distinctions in Numerical Analysis, Calculus, and Linear Algebra
-- 🤝 Open to research collaborations, internships, and open-source contributions
+-  Focus: Deep Learning, NLP, Computer Vision
+-  Academic distinctions in Numerical Analysis, Calculus, and Linear Algebra
+-  Open to research collaborations, internships, and open-source contributions
 
 ---
 
@@ -45,7 +45,7 @@ Computer Science student at Modern Academy, Maadi (2023–2027), specializing in
 
 ## Featured Projects
 
-### 🤖 AI & Machine Learning
+###  AI & Machine Learning
 
 | Project | Description | Stack |
 |---|---|---|
@@ -55,7 +55,7 @@ Computer Science student at Modern Academy, Maadi (2023–2027), specializing in
 | [**Medical DefyBot**](https://github.com/youseffahem) | React-based healthcare Q&A and medical education platform | React · JavaScript · AI |
 | [**Jacobi & Gauss Solver**](https://github.com/youseffahem/Jacobi-and-Gauss) | Numerical solvers for linear systems with convergence analysis | Python · Mathematical Computing |
 
-### 📱 Mobile & Software Engineering
+###  Mobile & Software Engineering
 
 | Project | Description | Stack |
 |---|---|---|
@@ -70,24 +70,36 @@ Computer Science student at Modern Academy, Maadi (2023–2027), specializing in
 |---|---|---|
 | Modern Academy, Maadi | B.Sc. Computer Science | 2023 – 2027 |
 | Microsoft × Sprints | AI & ML Summer Camp | 2024 |
-| University Program | AI & Machine Learning Intensive | 1 Month |
+| IT-GATE | AI & Machine Learning Intensive | 1 Month |
 
 ---
 
 ## GitHub Stats
 
-<div align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=youseffahem&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9&border_radius=8" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=youseffahem&theme=tokyonight&hide_border=true&background=0d1117&ring=7c3aed&fire=a78bfa&currStreakLabel=a78bfa&border_radius=8" />
-</div>
+<h2 align="center">GitHub Stats</h2>
 
 <div align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=youseffahem&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&border_radius=8&langs_count=7" />
+  <!-- Activity Graph (Stable) -->
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=youseffahem&theme=tokyo-night&hide_border=true" />
+</div>
+
+<br>
+
+<div align="center">
+  <!-- Contribution Graph (Very Stable SVG) -->
+  <img width="90%" src="https://ghchart.rshah.org/youseffahem" />
+</div>
+
+<br>
+
+<div align="center">
+  <!-- Streak (Working already عندك) -->
+  <img width="60%" src="https://streak-stats.demolab.com?user=youseffahem&theme=tokyonight&hide_border=true" />
 </div>
 
 ---
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&fontSize=14&fontColor=ffffff&animation=fadeIn"/>
-  <sub><i>"Every model I train is a step toward AI that genuinely helps people."</i></sub>
+  <!-- Clean Footer Animation -->
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer" />
 </div>
