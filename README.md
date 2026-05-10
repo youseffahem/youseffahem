@@ -78,7 +78,7 @@ My work spans both the software and hardware domains: from training deep learnin
 
 | Project | Description | Key Concepts | Difficulty |
 |---|---|---|:---:|
-| [**Arduino Projects Collection**](https://github.com/youseffahem) | Full embedded systems portfolio — 5 projects covering GPIO, PWM, sensors, game logic, and embedded automation | Embedded C/C++ · Arduino · Sensors | ⭐⭐⭐ |
+| [**Arduino Projects Collection**](https://github.com/youseffahem/Arduino-Projects-Collection) | Full embedded systems portfolio — 5 projects covering GPIO, PWM, sensors, game logic, and embedded automation | Embedded C/C++ · Arduino · Sensors | ⭐⭐⭐ |
 | **Memory Game (Simon Says)** | Fully interactive pattern-recall game with growing LED sequences, button debouncing, buzzer audio feedback, win/loss detection, and difficulty escalation — implemented as a state machine in embedded C | State Machines · Game Logic · Interrupts | ⭐⭐⭐ |
 | **Plant Monitor** | Automated soil moisture sensing system with threshold-based alert logic (LED + buzzer) and real-time Serial data streaming — demonstrates closed-loop embedded automation | Analog Sensors · Automation · UART | ⭐⭐⭐ |
 | **Light Dimmer** | Real-time PWM brightness control via potentiometer with analog-to-PWM signal mapping — demonstrates hardware-level analog output control | PWM · analogWrite · Signal Mapping | ⭐⭐ |
