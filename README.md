@@ -67,7 +67,6 @@ My work spans both the software and hardware domains: from training deep learnin
 | [**Study Buddy**](https://github.com/youseffahem) | Generative AI chatbot for personalized student tutoring — end-to-end NLP pipeline, Graduation project (GAIC Program) | Python · NLP · Deep Learning |
 | [**Heart Disease Prediction**](https://github.com/youseffahem/Hearts_Disease_Project) | End-to-end ML classification pipeline for cardiovascular risk assessment with full preprocessing and evaluation | Python · Scikit-learn · Pandas |
 | [**Hand Gesture Volume Control**](https://github.com/youseffahem/hand-gesture-volume-control) | Real-time hands-free volume control using landmark detection and computer vision — no hardware peripherals required | Python · OpenCV · MediaPipe |
-| [**Medical DefyBot**](https://github.com/youseffahem) | React-based healthcare Q&A platform leveraging AI for medical education and patient guidance | React · JavaScript · AI |
 | [**Jacobi & Gauss Solver**](https://github.com/youseffahem/Jacobi-and-Gauss) | Numerical solvers for linear systems with convergence analysis and iterative approximation | Python · Mathematical Computing |
 
 ---
