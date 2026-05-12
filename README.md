@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Youssef%20Fahem&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Embedded%20Systems%20%7C%20Computer%20Science%20Student&descAlignY=58&descSize=16"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Youssef%20Fahim&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Embedded%20Systems%20%7C%20Computer%20Science%20Student&descAlignY=58&descSize=16"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=15&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&height=45&lines=Building+intelligent+systems+%E2%80%94+from+silicon+to+software.;ML+%7C+Computer+Vision+%7C+NLP+%7C+Embedded+AI;Bridging+hardware+and+intelligence+at+the+edge.;Open+to+research+collaborations+%26+internships." alt="Typing SVG" />
