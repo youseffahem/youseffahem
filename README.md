@@ -351,15 +351,27 @@
 <tr>
 <th align="left">Institution</th><th align="left">Program</th><th align="left">Period</th>
 </tr>
+
 <tr>
 <td>Modern Academy, Maadi</td><td>B.Sc. Computer Science</td><td>2023 &ndash; 2027</td>
 </tr>
+
 <tr>
 <td>Microsoft and Sprints</td><td>AI and Machine Learning Summer Camp &mdash; <a href="https://sprints.ai/en-eg/journeys/learning/ID%20-%20SPR%20-%20I92F5Y/view-certificate-serial">certificate</a></td><td>2024</td>
 </tr>
+
 <tr>
 <td>Ex-Fresher</td><td>Python Programming &mdash; <a href="https://drive.google.com/file/d/1iwOjD47GwBEmMF3y_Fk5r1kqdF14VJzQ/view">certificate</a></td><td>6 months</td>
 </tr>
+
+<tr>
+<td>IT-GATE</td><td>AI and Machine Learning</td><td>2025</td>
+</tr>
+
+<tr>
+<td>Ray Group</td><td>Full-Stack Development with Python</td><td>2026</td>
+</tr>
+
 </table>
 
 </div>
