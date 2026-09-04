@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 30" width="1200" height="30" role="presentation" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
+<defs>
+  <linearGradient id="dline" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#DC143C" stop-opacity="0"/>
+    <stop offset="0.18" stop-color="#DC143C" stop-opacity="0.55"/>
+    <stop offset="0.5" stop-color="#FF2D75" stop-opacity="0.95"/>
+    <stop offset="0.82" stop-color="#DC143C" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#DC143C" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="dpulse" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF2D75" stop-opacity="0"/>
+    <stop offset="0.45" stop-color="#FF6BB0" stop-opacity="0.95"/>
+    <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="1"/>
+    <stop offset="0.55" stop-color="#FF6BB0" stop-opacity="0.95"/>
+    <stop offset="1" stop-color="#FF2D75" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="dg" x="-200%" y="-800%" width="500%" height="1700%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="dgs" x="-400%" y="-400%" width="900%" height="900%">
+    <feGaussianBlur stdDeviation="2.6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="dhalo" x="-100%" y="-900%" width="300%" height="1900%">
+    <feGaussianBlur stdDeviation="4"/>
+  </filter>
+  <style>
+    .node{animation:np 3.6s ease-in-out infinite}
+    @keyframes np{0%,100%{opacity:.6;transform:scale(.82)}50%{opacity:1;transform:scale(1.14)}}
+    .ring{animation:rp 3.6s ease-out infinite}
+    @keyframes rp{0%{opacity:.85;transform:scale(.45)}100%{opacity:0;transform:scale(3)}}
+    .tick{animation:tk 3.6s ease-in-out infinite}
+    @keyframes tk{0%,100%{opacity:.25}50%{opacity:.85}}
+  </style>
+</defs>
+
+<rect x="60" y="13.6" width="1080" height="2.8" fill="url(#dline)" filter="url(#dhalo)" opacity="0.55"/>
+<rect x="60" y="14.3" width="1080" height="1.5" fill="url(#dline)"/>
+
+<rect x="-300" y="13.6" width="300" height="2.8" fill="url(#dpulse)" filter="url(#dg)" opacity="0.95">
+  <animate attributeName="x" values="-300;1200" dur="6.5s" repeatCount="indefinite"/>
+</rect>
+
+<g transform="translate(600 15)">
+  <circle class="ring" r="4" fill="none" stroke="#FF2D75" stroke-width="1.2"/>
+  <g class="node">
+    <path d="M0,-6.4 L6.4,0 L0,6.4 L-6.4,0 Z" fill="#FF2D75" filter="url(#dgs)"/>
+    <path d="M0,-2.6 L2.6,0 L0,2.6 L-2.6,0 Z" fill="#FFE3F0"/>
+  </g>
+</g>
+
+<g fill="#FF2D75">
+  <circle class="tick" cx="520" cy="15" r="1.8"/>
+  <circle class="tick" cx="680" cy="15" r="1.8" style="animation-delay:.4s"/>
+  <circle class="tick" cx="470" cy="15" r="1.2" style="animation-delay:.8s"/>
+  <circle class="tick" cx="730" cy="15" r="1.2" style="animation-delay:1.2s"/>
+</g>
+</svg>

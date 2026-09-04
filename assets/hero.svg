@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Youssef Fahem Amin, Software Engineer" preserveAspectRatio="xMidYMid meet">
+<title>Youssef Fahem Amin - Software Engineer</title>
+<defs>
+  <linearGradient id="void" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#05010B"/>
+    <stop offset="0.45" stop-color="#100320"/>
+    <stop offset="1" stop-color="#05010B"/>
+  </linearGradient>
+
+  <radialGradient id="neb1" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#FF2D75" stop-opacity="0.42"/>
+    <stop offset="0.55" stop-color="#8B0020" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#8B0020" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="neb2" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#DC143C" stop-opacity="0.34"/>
+    <stop offset="0.6" stop-color="#4A0A2A" stop-opacity="0.14"/>
+    <stop offset="1" stop-color="#16062B" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="neb3" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#7A1FA2" stop-opacity="0.28"/>
+    <stop offset="1" stop-color="#16062B" stop-opacity="0"/>
+  </radialGradient>
+
+  <linearGradient id="nameSweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#B01030"/>
+    <stop offset="0.42" stop-color="#FF2D75"/>
+    <stop offset="0.5" stop-color="#FFF0F6"/>
+    <stop offset="0.58" stop-color="#FF4D9E"/>
+    <stop offset="1" stop-color="#B01030"/>
+    <animate attributeName="x1" values="-1.1;0.9" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;2" dur="7s" repeatCount="indefinite"/>
+  </linearGradient>
+
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF2D75" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#FF6BB0" stop-opacity="0.85"/>
+    <stop offset="1" stop-color="#FF2D75" stop-opacity="0"/>
+  </linearGradient>
+
+  <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#DC143C" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#FF2D75" stop-opacity="0.7"/>
+    <stop offset="1" stop-color="#DC143C" stop-opacity="0"/>
+  </linearGradient>
+
+  <filter id="glowLg" x="-40%" y="-140%" width="180%" height="380%">
+    <feGaussianBlur stdDeviation="10" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowSm" x="-80%" y="-200%" width="260%" height="500%">
+    <feGaussianBlur stdDeviation="2.6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="26"/></filter>
+
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="7"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+
+  <path id="orbitPath" d="M600,196 m-330,0 a330,74 0 1,0 660,0 a330,74 0 1,0 -660,0" fill="none"/>
+
+  <style>
+    .star{fill:#FFD9EA;animation:tw 4s ease-in-out infinite}
+    @keyframes tw{0%,100%{opacity:.14}50%{opacity:.92}}
+    .dust{fill:#FF8FC4;animation:fl 16s ease-in-out infinite}
+    @keyframes fl{0%,100%{transform:translateY(0);opacity:.2}50%{transform:translateY(-16px);opacity:.7}}
+    .brk{stroke:#FF2D75;stroke-width:2;fill:none;animation:bp 5s ease-in-out infinite}
+    @keyframes bp{0%,100%{opacity:.28}50%{opacity:.95}}
+    text{font-family:'JetBrains Mono','Fira Code',ui-monospace,'SFMono-Regular',Consolas,monospace}
+  </style>
+</defs>
+
+<rect width="1200" height="360" fill="url(#void)"/>
+
+<g filter="url(#soft)">
+  <ellipse cx="250" cy="120" rx="300" ry="170" fill="url(#neb1)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 70,26; -30,14; 0,0" dur="26s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="950" cy="250" rx="340" ry="180" fill="url(#neb2)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -80,-24; 34,-10; 0,0" dur="31s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="620" cy="330" rx="380" ry="130" fill="url(#neb3)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 40,-30; -46,10; 0,0" dur="38s" repeatCount="indefinite"/>
+  </ellipse>
+</g>
+
+<rect width="1200" height="360" filter="url(#grain)" opacity="0.05"/>
+
+<g>
+  <circle class="star" cx="70" cy="52" r="1.5" style="animation-delay:0s"/>
+  <circle class="star" cx="168" cy="286" r="1.2" style="animation-delay:.7s"/>
+  <circle class="star" cx="243" cy="44" r="1.8" style="animation-delay:1.4s"/>
+  <circle class="star" cx="330" cy="318" r="1.3" style="animation-delay:2.1s"/>
+  <circle class="star" cx="404" cy="70" r="1.1" style="animation-delay:.35s"/>
+  <circle class="star" cx="488" cy="300" r="1.7" style="animation-delay:2.8s"/>
+  <circle class="star" cx="556" cy="38" r="1.2" style="animation-delay:1.05s"/>
+  <circle class="star" cx="648" cy="326" r="1.5" style="animation-delay:3.5s"/>
+  <circle class="star" cx="726" cy="58" r="1.3" style="animation-delay:1.75s"/>
+  <circle class="star" cx="812" cy="308" r="1.6" style="animation-delay:.52s"/>
+  <circle class="star" cx="884" cy="46" r="1.1" style="animation-delay:2.45s"/>
+  <circle class="star" cx="962" cy="292" r="1.4" style="animation-delay:3.15s"/>
+  <circle class="star" cx="1042" cy="66" r="1.7" style="animation-delay:.87s"/>
+  <circle class="star" cx="1118" cy="312" r="1.2" style="animation-delay:1.92s"/>
+  <circle class="star" cx="1160" cy="140" r="1.4" style="animation-delay:2.6s"/>
+  <circle class="star" cx="38" cy="196" r="1.3" style="animation-delay:3.3s"/>
+  <circle class="star" cx="140" cy="118" r="1" style="animation-delay:.2s"/>
+  <circle class="star" cx="1078" cy="216" r="1" style="animation-delay:1.5s"/>
+  <circle class="star" cx="292" cy="216" r="1" style="animation-delay:2.2s"/>
+  <circle class="star" cx="905" cy="128" r="1" style="animation-delay:3.8s"/>
+</g>
+
+<g>
+  <circle class="dust" cx="120" cy="250" r="2.2" style="animation-delay:0s"/>
+  <circle class="dust" cx="380" cy="140" r="1.8" style="animation-delay:2.4s"/>
+  <circle class="dust" cx="700" cy="270" r="2.4" style="animation-delay:4.8s"/>
+  <circle class="dust" cx="1010" cy="150" r="2" style="animation-delay:7.2s"/>
+  <circle class="dust" cx="520" cy="220" r="1.6" style="animation-delay:9.6s"/>
+  <circle class="dust" cx="860" cy="230" r="2.1" style="animation-delay:12s"/>
+</g>
+
+<g opacity="0.30">
+  <use href="#orbitPath" xlink:href="#orbitPath" stroke="#FF2D75" stroke-width="1" stroke-dasharray="3 9"/>
+</g>
+<circle r="3.6" fill="#FF6BB0" filter="url(#glowSm)">
+  <animateMotion dur="18s" repeatCount="indefinite"><mpath href="#orbitPath" xlink:href="#orbitPath"/></animateMotion>
+</circle>
+<circle r="2.2" fill="#FFC2DE" filter="url(#glowSm)" opacity="0.75">
+  <animateMotion dur="18s" begin="-9s" repeatCount="indefinite"><mpath href="#orbitPath" xlink:href="#orbitPath"/></animateMotion>
+</circle>
+
+<g class="brk">
+  <path d="M44,42 L44,20 L96,20"/><path d="M1156,42 L1156,20 L1104,20"/>
+  <path d="M44,318 L44,340 L96,340"/><path d="M1156,318 L1156,340 L1104,340"/>
+</g>
+
+<text x="600" y="176" text-anchor="middle" font-size="66" font-weight="700" letter-spacing="7" fill="url(#nameSweep)" filter="url(#glowLg)">YOUSSEF FAHEM AMIN</text>
+
+<rect x="380" y="196" width="440" height="1.4" fill="url(#rule)"/>
+
+<text x="600" y="234" text-anchor="middle" font-size="21" font-weight="500" letter-spacing="9.5" fill="#FFB3D2" filter="url(#glowSm)">SOFTWARE ENGINEER</text>
+
+<text x="600" y="266" text-anchor="middle" font-size="13.5" letter-spacing="4.4" fill="#9B7A96">BACKEND SYSTEMS &#183; MACHINE LEARNING &#183; MOBILE &#183; EMBEDDED</text>
+
+<rect x="-260" y="120" width="260" height="140" fill="url(#beam)" opacity="0.16">
+  <animate attributeName="x" values="-260;1200" dur="9s" repeatCount="indefinite"/>
+</rect>
+</svg>

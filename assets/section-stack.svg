@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Section: Technology Stack" preserveAspectRatio="xMidYMid meet">
+<title>Section: Technology Stack</title>
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0A0117"/>
+    <stop offset="0.5" stop-color="#150428"/>
+    <stop offset="1" stop-color="#0A0117"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#DC143C" stop-opacity="0.85"/>
+    <stop offset="0.5" stop-color="#FF2D75" stop-opacity="0.35"/>
+    <stop offset="1" stop-color="#DC143C" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF2D75" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#FF6BB0" stop-opacity="1"/>
+    <stop offset="1" stop-color="#FF2D75" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="bloom" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#FF2D75" stop-opacity="0.30"/>
+    <stop offset="1" stop-color="#FF2D75" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FF4D9E"/>
+    <stop offset="1" stop-color="#8B0020"/>
+  </linearGradient>
+  <filter id="sg" x="-60%" y="-160%" width="220%" height="420%">
+    <feGaussianBlur stdDeviation="3.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="sgs" x="-200%" y="-200%" width="500%" height="500%">
+    <feGaussianBlur stdDeviation="2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="blur18"><feGaussianBlur stdDeviation="18"/></filter>
+  <style>
+    .bar{animation:bg 3.2s ease-in-out infinite}
+    @keyframes bg{0%,100%{opacity:.5}50%{opacity:1}}
+    .mote{fill:#FF8FC4;animation:mv 11s ease-in-out infinite}
+    @keyframes mv{0%,100%{opacity:.15;transform:translateY(0)}50%{opacity:.7;transform:translateY(-9px)}}
+    text{font-family:'JetBrains Mono','Fira Code',ui-monospace,'SFMono-Regular',Consolas,monospace}
+  </style>
+</defs>
+
+<rect x="1" y="1" width="1198" height="94" rx="14" fill="url(#panel)"/>
+<ellipse cx="150" cy="48" rx="240" ry="60" fill="url(#bloom)" filter="url(#blur18)">
+  <animateTransform attributeName="transform" type="translate" values="0,0; 90,0; 0,0" dur="19s" repeatCount="indefinite"/>
+</ellipse>
+<rect x="1" y="1" width="1198" height="94" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
+
+<rect x="300" y="1" width="600" height="1.6" fill="url(#topline)" opacity="0.85">
+  <animate attributeName="x" values="-600;1200" dur="8s" repeatCount="indefinite"/>
+</rect>
+
+<rect class="bar" x="30" y="26" width="4.5" height="44" rx="2.25" fill="url(#acc)" filter="url(#sgs)"/>
+
+<text x="52" y="42" font-size="14" font-weight="600" letter-spacing="2.6" fill="#FF4D9E" opacity="0.9">02 / CAPABILITY</text>
+<text x="52" y="70" font-size="34" font-weight="700" letter-spacing="6.5" fill="#F5E6F0" filter="url(#sg)">TECHNOLOGY STACK</text>
+
+<g>
+  <circle class="mote" cx="1010" cy="34" r="1.8" style="animation-delay:0s"/>
+  <circle class="mote" cx="1064" cy="62" r="1.4" style="animation-delay:2.2s"/>
+  <circle class="mote" cx="1112" cy="30" r="1.6" style="animation-delay:4.4s"/>
+  <circle class="mote" cx="962" cy="66" r="1.2" style="animation-delay:6.6s"/>
+</g>
+
+<g transform="translate(1150 48)">
+  <circle r="4.5" fill="none" stroke="#FF2D75" stroke-width="1" opacity="0.5"/>
+  <circle r="2" fill="#FF6BB0" filter="url(#sgs)">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<path d="M1090,48 L1136,48" stroke="#DC143C" stroke-width="1" stroke-dasharray="4 6" opacity="0.6">
+  <animate attributeName="stroke-dashoffset" values="20;0" dur="1.8s" repeatCount="indefinite"/>
+</path>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="Arduino Projects Collection - embedded C and C plus plus firmware" preserveAspectRatio="xMidYMid meet">
+<title>Arduino Projects Collection</title>
+<defs>
+  <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#10021C"/>
+    <stop offset="0.42" stop-color="#1E0530"/>
+    <stop offset="1" stop-color="#08010F"/>
+  </linearGradient>
+  <linearGradient id="wash" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF2D75" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#FF2D75" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#FF2D75" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#FF9CC8"/>
+  </linearGradient>
+  <linearGradient id="lacc" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FF4D9E"/>
+    <stop offset="1" stop-color="#8B0020"/>
+  </linearGradient>
+  <filter id="cg" x="-60%" y="-200%" width="220%" height="500%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="cgs" x="-300%" y="-300%" width="700%" height="700%">
+    <feGaussianBlur stdDeviation="2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .t{font-family:'JetBrains Mono','Fira Code',ui-monospace,Consolas,monospace}
+    .trace{fill:none;stroke:#8B0020;stroke-width:1.4;opacity:.65}
+    .pad{fill:#DC143C;opacity:.7}
+    .led{animation:lp 2.4s ease-in-out infinite}
+    @keyframes lp{0%,100%{opacity:.2}50%{opacity:1}}
+  </style>
+</defs>
+
+<rect x="1" y="1" width="1198" height="118" rx="14" fill="url(#cbg)"/>
+<rect x="-420" y="1" width="420" height="118" fill="url(#wash)">
+  <animate attributeName="x" values="-420;1200" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="1" y="1" width="1198" height="118" rx="14" fill="none" stroke="#DC143C" stroke-opacity="0.32" stroke-width="1.4"/>
+<rect x="1" y="1" width="1198" height="118" rx="14" fill="none" stroke="#FF6BB0" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="170 2438" filter="url(#cgs)">
+  <animate attributeName="stroke-dashoffset" values="2608;0" dur="7s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="28" y="30" width="4.5" height="60" rx="2.25" fill="url(#lacc)" filter="url(#cgs)"/>
+
+<text class="t" x="50" y="44" font-size="12" letter-spacing="3.4" fill="#FF6BB0" opacity="0.95">EMBEDDED C/C++ &#183; ARDUINO &#183; PWM &#183; UART</text>
+<text class="t" x="50" y="78" font-size="34" font-weight="700" letter-spacing="3.4" fill="url(#ttl)" filter="url(#cg)">ARDUINO COLLECTION</text>
+<text class="t" x="50" y="100" font-size="12.5" letter-spacing="1.6" fill="#9B7A96">Five firmware projects &#183; GPIO, PWM, sensors, state machines</text>
+
+<g transform="translate(800 0)">
+  <rect x="150" y="34" width="66" height="52" rx="5" fill="#1A0526" stroke="#DC143C" stroke-width="1.2" opacity="0.95"/>
+  <text class="t" x="183" y="64" font-size="9" letter-spacing="1.2" fill="#FFB3D2" text-anchor="middle">MCU</text>
+  <g fill="#8B0020">
+    <rect x="156" y="28" width="5" height="6"/><rect x="168" y="28" width="5" height="6"/>
+    <rect x="180" y="28" width="5" height="6"/><rect x="192" y="28" width="5" height="6"/>
+    <rect x="204" y="28" width="5" height="6"/>
+    <rect x="156" y="86" width="5" height="6"/><rect x="168" y="86" width="5" height="6"/>
+    <rect x="180" y="86" width="5" height="6"/><rect x="192" y="86" width="5" height="6"/>
+    <rect x="204" y="86" width="5" height="6"/>
+  </g>
+
+  <path id="tr1" class="trace" d="M22,32 L96,32 L118,48 L150,48"/>
+  <path id="tr2" class="trace" d="M22,60 L150,60"/>
+  <path id="tr3" class="trace" d="M22,88 L96,88 L118,72 L150,72"/>
+  <path id="tr4" class="trace" d="M216,48 L252,48 L272,32 L330,32"/>
+  <path id="tr5" class="trace" d="M216,72 L252,72 L272,88 L330,88"/>
+
+  <circle r="2.6" fill="#FF6BB0" filter="url(#cgs)">
+    <animateMotion dur="3s" repeatCount="indefinite"><mpath href="#tr1" xlink:href="#tr1"/></animateMotion>
+  </circle>
+  <circle r="2.6" fill="#FF6BB0" filter="url(#cgs)">
+    <animateMotion dur="3s" begin="-1s" repeatCount="indefinite"><mpath href="#tr2" xlink:href="#tr2"/></animateMotion>
+  </circle>
+  <circle r="2.6" fill="#FF6BB0" filter="url(#cgs)">
+    <animateMotion dur="3s" begin="-2s" repeatCount="indefinite"><mpath href="#tr3" xlink:href="#tr3"/></animateMotion>
+  </circle>
+  <circle r="2.6" fill="#FFC2DE" filter="url(#cgs)">
+    <animateMotion dur="2.6s" begin="-0.6s" repeatCount="indefinite"><mpath href="#tr4" xlink:href="#tr4"/></animateMotion>
+  </circle>
+  <circle r="2.6" fill="#FFC2DE" filter="url(#cgs)">
+    <animateMotion dur="2.6s" begin="-1.8s" repeatCount="indefinite"><mpath href="#tr5" xlink:href="#tr5"/></animateMotion>
+  </circle>
+
+  <g class="pad">
+    <circle cx="22" cy="32" r="3"/><circle cx="22" cy="60" r="3"/><circle cx="22" cy="88" r="3"/>
+  </g>
+
+  <circle class="led" cx="336" cy="32" r="4.5" fill="#FF2D75" filter="url(#cgs)" style="animation-delay:0s"/>
+  <circle class="led" cx="336" cy="60" r="4.5" fill="#FF6BB0" filter="url(#cgs)" style="animation-delay:.8s"/>
+  <circle class="led" cx="336" cy="88" r="4.5" fill="#FFC2DE" filter="url(#cgs)" style="animation-delay:1.6s"/>
+</g>
+</svg>
