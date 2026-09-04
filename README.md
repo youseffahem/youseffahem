@@ -7,9 +7,9 @@
 </div>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/yousef-fahem0"><img src="https://img.shields.io/badge/LINKEDIN-yousef--fahem0-DC143C?style=for-the-badge&logo=linkedin&logoColor=FF9CC8&labelColor=0A0117" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/yousef-fahem/"><img src="https://img.shields.io/badge/LINKEDIN-yousef--fahem0-DC143C?style=for-the-badge&logo=linkedin&logoColor=FF9CC8&labelColor=0A0117" alt="LinkedIn" /></a>
   <a href="mailto:yousef.fahem11@gmail.com"><img src="https://img.shields.io/badge/EMAIL-yousef.fahem11@gmail.com-FF2D75?style=for-the-badge&logo=gmail&logoColor=FF9CC8&labelColor=0A0117" alt="Email" /></a>
-  <a href="https://x.com/yousef11hasson"><img src="https://img.shields.io/badge/X-yousef11hasson-8B0020?style=for-the-badge&logo=x&logoColor=FF9CC8&labelColor=0A0117" alt="X" /></a>
+  <a href="https://x.com/YousefFahem0"><img src="https://img.shields.io/badge/X-yousef11hasson-8B0020?style=for-the-badge&logo=x&logoColor=FF9CC8&labelColor=0A0117" alt="X" /></a>
   <a href="https://github.com/youseffahem"><img src="https://img.shields.io/badge/GITHUB-youseffahem-DC143C?style=for-the-badge&logo=github&logoColor=FF9CC8&labelColor=0A0117" alt="GitHub" /></a>
   <br/>
   <img src="https://img.shields.io/badge/BASED_IN-EGYPT-2A0426?style=flat-square&labelColor=0A0117&color=8B0020" alt="Based in Egypt" />
@@ -340,9 +340,9 @@
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/yousef-fahem0"><img src="https://img.shields.io/badge/LINKEDIN-0A0117?style=for-the-badge&logo=linkedin&logoColor=FF9CC8&color=DC143C" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/yousef-fahem/"><img src="https://img.shields.io/badge/LINKEDIN-0A0117?style=for-the-badge&logo=linkedin&logoColor=FF9CC8&color=DC143C" alt="LinkedIn" /></a>
 <a href="mailto:yousef.fahem11@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0A0117?style=for-the-badge&logo=gmail&logoColor=FF9CC8&color=FF2D75" alt="Email" /></a>
-<a href="https://x.com/yousef11hasson"><img src="https://img.shields.io/badge/X-0A0117?style=for-the-badge&logo=x&logoColor=FF9CC8&color=8B0020" alt="X" /></a>
+<a href="https://x.com/YousefFahem0"><img src="https://img.shields.io/badge/X-0A0117?style=for-the-badge&logo=x&logoColor=FF9CC8&color=8B0020" alt="X" /></a>
 <a href="https://github.com/youseffahem"><img src="https://img.shields.io/badge/GITHUB-0A0117?style=for-the-badge&logo=github&logoColor=FF9CC8&color=DC143C" alt="GitHub" /></a>
 
 <br/><br/>
