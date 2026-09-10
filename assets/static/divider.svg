@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 28" width="1200" height="28" role="presentation" aria-label="" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+<title>Static (reduced motion): Data bus divider</title>
+
+<defs>
+<linearGradient id="bus" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B82F6" stop-opacity="0"/><stop offset="0.2" stop-color="#3B82F6" stop-opacity="0.5"/><stop offset="0.5" stop-color="#06B6D4" stop-opacity="0.8"/><stop offset="0.8" stop-color="#8B5CF6" stop-opacity="0.5"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient>
+<linearGradient id="pkd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#06B6D4" stop-opacity="0"/><stop offset="0.6" stop-color="#67E8F9"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+<filter id="dg" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+.dp{}
+.dn{transform-box:fill-box;transform-origin:center;}
+.dr{transform-box:fill-box;transform-origin:center;}
+.tk{}
+@media (prefers-reduced-motion:reduce){*{}}
+*{animation:none!important}.tp{transform:none!important}.hl,.stg,.nact,.drop,.scan{opacity:0!important}.tick,.ok{opacity:1!important;transform:none!important}.duty{opacity:0!important}.duty-base{opacity:1!important}.req,.res,.pkt,.bus,.fl,.run,.dp,.up,.dn,.trav,.vec{opacity:0!important}</style></defs>
+<rect x="60" y="13.2" width="1080" height="1.6" fill="url(#bus)"/>
+<path class="tk" d="M60,11.5 V16.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M87,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M114,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M141,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M168,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M195,11.5 V16.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M222,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M249,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M276,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M303,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M330,11.5 V16.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M357,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M384,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M411,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M438,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M465,11.5 V16.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M492,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M519,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M546,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M573,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M600,11.5 V16.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M627,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M654,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M681,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M708,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M735,11.5 V16.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M762,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M789,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M816,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M843,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M870,11.5 V16.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M897,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M924,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M951,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M978,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M1005,11.5 V16.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M1032,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M1059,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M1086,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M1113,12.5 V15.5" stroke="#243044" stroke-width="1" />
+<path class="tk" d="M1140,11.5 V16.5" stroke="#243044" stroke-width="1" />
+<rect class="dp" x="-16" y="12.6" width="16" height="2.8" rx="1.4" fill="url(#pkd)" filter="url(#dg)" />
+<rect class="dp" x="-16" y="12.6" width="16" height="2.8" rx="1.4" fill="url(#pkd)" filter="url(#dg)" />
+<rect class="dp" x="-16" y="12.6" width="16" height="2.8" rx="1.4" fill="url(#pkd)" filter="url(#dg)" />
+<circle class="dr" cx="600" cy="14" r="5" fill="none" stroke="#06B6D4" stroke-width="1.1"/>
+<g class="dn"><path d="M600,7.5 L606.5,14 L600,20.5 L593.5,14 Z" fill="#06B6D4" filter="url(#dg)"/><path d="M600,10.8 L603.2,14 L600,17.2 L596.8,14 Z" fill="#F8FAFC"/></g>
+</svg>

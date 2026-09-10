@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 88" width="1200" height="88" role="img" aria-label="Section heading: Further work, smaller systems and experiments." preserveAspectRatio="xMidYMid meet">
+<title>Static (reduced motion): Section: Further Work</title>
+
+<defs>
+<linearGradient id="pg" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#0F172A"/><stop offset="1" stop-color="#0B1120"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B82F6" stop-opacity="0.75"/><stop offset="0.45" stop-color="#243044" stop-opacity="0.9"/><stop offset="1" stop-color="#1E293B" stop-opacity="0.6"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0.25"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B82F6" stop-opacity="0"/><stop offset="0.5" stop-color="#3B82F6" stop-opacity="0.9"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></linearGradient>
+<radialGradient id="bloom" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3B82F6" stop-opacity="0.16"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#101D30" stroke-width="1"/></pattern>
+<filter id="sg" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="sf"><feGaussianBlur stdDeviation="20"/></filter>
+<style>
+text{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace}.sans{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}
+.sw{}
+.ab{}
+.pn{transform-box:fill-box;transform-origin:center;}
+.lk{}
+.sb{}
+.sl{}
+.bar{}
+.dt{}
+.draw{}
+.wv{transform-box:fill-box;transform-origin:center;}
+@media (prefers-reduced-motion:reduce){*{}}
+*{animation:none!important}.tp{transform:none!important}.hl,.stg,.nact,.drop,.scan{opacity:0!important}.tick,.ok{opacity:1!important;transform:none!important}.duty{opacity:0!important}.duty-base{opacity:1!important}.req,.res,.pkt,.bus,.fl,.run,.dp,.up,.dn,.trav,.vec{opacity:0!important}</style></defs>
+<rect x="1" y="1" width="1198" height="86" rx="12" fill="url(#pg)"/>
+<rect x="1" y="1" width="1198" height="86" rx="12" fill="url(#grid)" opacity="0.5"/>
+<ellipse cx="120" cy="44" rx="230" ry="60" fill="url(#bloom)" filter="url(#sf)"/>
+<rect x="1" y="1" width="1198" height="86" rx="12" fill="none" stroke="url(#edge)" stroke-width="1.3"/>
+<g><rect class="sw" x="0" y="1" width="460" height="1.5" fill="url(#tl)"/></g>
+<rect class="ab" x="26" y="22" width="4" height="44" rx="2" fill="url(#acc)" filter="url(#sg)"/>
+<text x="46" y="36" font-size="10" letter-spacing="2.6" fill="#3B82F6" opacity="0.92">04 / ARCHIVE</text>
+<text class="sans" x="46" y="68" font-size="27" font-weight="800" letter-spacing="4.6" fill="#F8FAFC">FURTHER WORK</text>
+<text x="361" y="66" font-size="9.5" letter-spacing="1.5" fill="#64748B">smaller systems &#183; experiments</text>
+<path d="M343,52 V72" stroke="#243044" stroke-width="1"/>
+<circle class="dt" cx="998" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1011" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1024" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1037" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1050" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1063" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1076" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1089" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1102" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1115" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1128" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1141" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1154" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="1167" cy="28" r="2" fill="#3B82F6" /><circle class="dt" cx="998" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1011" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1024" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1037" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1050" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1063" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1076" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1089" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1102" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1115" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1128" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1141" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1154" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="1167" cy="39" r="2" fill="#3B82F6" /><circle class="dt" cx="998" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1011" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1024" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1037" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1050" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1063" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1076" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1089" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1102" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1115" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1128" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1141" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1154" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="1167" cy="50" r="2" fill="#3B82F6" /><circle class="dt" cx="998" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1011" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1024" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1037" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1050" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1063" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1076" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1089" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1102" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1115" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1128" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1141" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1154" cy="61" r="2" fill="#3B82F6" /><circle class="dt" cx="1167" cy="61" r="2" fill="#3B82F6" />
+</svg>

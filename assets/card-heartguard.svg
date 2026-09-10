@@ -1,69 +1,225 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="HeartGuard AI - machine learning cardiovascular risk assessment" preserveAspectRatio="xMidYMid meet">
-<title>HeartGuard AI</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 332" width="1200" height="332" role="img" aria-label="HeartGuard AI, a machine learning system for cardiovascular risk assessment on the UCI Heart Disease dataset. Patient features, 303 records by 13 clinical features, pass through SMOTE resampling and stratified cross-validation, feature selection with recursive feature elimination and PCA, into four compared models: Random Forest, XGBoost, SVM and Logistic Regression. Random Forest leads with 85.2 percent accuracy, 0.847 F1 and 0.901 ROC-AUC. Top predictive features are chest pain type, maximum heart rate, ST depression, major vessel count and thalassemia type." preserveAspectRatio="xMidYMid meet">
+<title>HeartGuard AI inference architecture</title>
+
 <defs>
-  <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#1A0316"/>
-    <stop offset="0.42" stop-color="#2A0620"/>
-    <stop offset="1" stop-color="#08010F"/>
-  </linearGradient>
-  <linearGradient id="wash" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#FF2D75" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="#FF2D75" stop-opacity="0.16"/>
-    <stop offset="1" stop-color="#FF2D75" stop-opacity="0"/>
-  </linearGradient>
-  <linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#FFFFFF"/>
-    <stop offset="1" stop-color="#FF9CC8"/>
-  </linearGradient>
-  <linearGradient id="lacc" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#FF4D9E"/>
-    <stop offset="1" stop-color="#8B0020"/>
-  </linearGradient>
-  <filter id="cg" x="-60%" y="-200%" width="220%" height="500%">
-    <feGaussianBlur stdDeviation="3" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="cgs" x="-300%" y="-300%" width="700%" height="700%">
-    <feGaussianBlur stdDeviation="2" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <style>
-    .t{font-family:'JetBrains Mono','Fira Code',ui-monospace,Consolas,monospace}
-    .bar{fill:#DC143C;opacity:.55;animation:bh 3.4s ease-in-out infinite;transform-origin:bottom}
-    @keyframes bh{0%,100%{opacity:.35}50%{opacity:.9}}
-  </style>
-</defs>
-
-<rect x="1" y="1" width="1198" height="118" rx="14" fill="url(#cbg)"/>
-<rect x="-420" y="1" width="420" height="118" fill="url(#wash)">
-  <animate attributeName="x" values="-420;1200" dur="10s" repeatCount="indefinite"/>
-</rect>
-<rect x="1" y="1" width="1198" height="118" rx="14" fill="none" stroke="#DC143C" stroke-opacity="0.32" stroke-width="1.4"/>
-<rect x="1" y="1" width="1198" height="118" rx="14" fill="none" stroke="#FF6BB0" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="170 2438" filter="url(#cgs)">
-  <animate attributeName="stroke-dashoffset" values="2608;0" dur="7s" repeatCount="indefinite"/>
-</rect>
-
-<rect x="28" y="30" width="4.5" height="60" rx="2.25" fill="url(#lacc)" filter="url(#cgs)"/>
-
-<text class="t" x="50" y="44" font-size="12" letter-spacing="3.4" fill="#FF6BB0" opacity="0.95">SCIKIT-LEARN &#183; XGBOOST &#183; STREAMLIT</text>
-<text class="t" x="50" y="78" font-size="34" font-weight="700" letter-spacing="3.4" fill="url(#ttl)" filter="url(#cg)">HEARTGUARD AI</text>
-<text class="t" x="50" y="100" font-size="12.5" letter-spacing="1.6" fill="#9B7A96">Cardiovascular risk classification &#183; UCI dataset</text>
-
-<g transform="translate(770 0)">
-  <path d="M0,60 L46,60 L58,34 L72,86 L86,48 L98,60 L140,60 L152,40 L166,80 L178,60 L230,60 L242,30 L256,90 L268,60 L330,60"
-        fill="none" stroke="#8B0020" stroke-width="1.6" opacity="0.4"/>
-  <path d="M0,60 L46,60 L58,34 L72,86 L86,48 L98,60 L140,60 L152,40 L166,80 L178,60 L230,60 L242,30 L256,90 L268,60 L330,60"
-        fill="none" stroke="#FF4D9E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
-        stroke-dasharray="120 640" filter="url(#cgs)">
-    <animate attributeName="stroke-dashoffset" values="760;0" dur="3.4s" repeatCount="indefinite"/>
-  </path>
-
-  <g>
-    <rect class="bar" x="352" y="40" width="9" height="40" rx="2"/>
-    <rect class="bar" x="366" y="48" width="9" height="32" rx="2" style="animation-delay:.4s"/>
-    <rect class="bar" x="380" y="54" width="9" height="26" rx="2" style="animation-delay:.8s"/>
-    <rect class="bar" x="394" y="60" width="9" height="20" rx="2" style="animation-delay:1.2s"/>
-  </g>
-  <text class="t" x="379" y="94" font-size="8.5" letter-spacing="1" fill="#9B7A96" text-anchor="middle">model scores</text>
-</g>
+<linearGradient id="pg" x1="0" y1="0" x2="0.55" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="0.5" stop-color="#0B1120"/><stop offset="1" stop-color="#050A12"/></linearGradient>
+<linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F8FAFC"/><stop offset="0.55" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset="0.5" stop-color="#8B5CF6" stop-opacity="0.9"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient>
+<linearGradient id="pk" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset="0.6" stop-color="#8B5CF6"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+<linearGradient id="pkb" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#22C55E" stop-opacity="0"/><stop offset="0.6" stop-color="#22C55E"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+<radialGradient id="bl1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.15"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<radialGradient id="bl2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.13"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#101D30" stroke-width="1"/></pattern>
+<filter id="g2" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="g3" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft"><feGaussianBlur stdDeviation="30"/></filter>
+<style>
+text{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace}.sans{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}
+.sw{animation:sw 7s linear infinite}@keyframes sw{from{transform:translateX(-600px)}to{transform:translateX(1200px)}}
+.led{animation:led 2.4s ease-in-out infinite}@keyframes led{0%,100%{opacity:.35}50%{opacity:1}}
+.pn{transform-box:fill-box;transform-origin:center;animation:pn 2.8s ease-in-out infinite}@keyframes pn{0%,100%{opacity:.45;transform:scale(.82)}50%{opacity:1;transform:scale(1.16)}}
+.rg{transform-box:fill-box;transform-origin:center;animation:rg 2.8s ease-out infinite}@keyframes rg{0%{opacity:.75;transform:scale(.5)}100%{opacity:0;transform:scale(2.5)}}
+.hl{opacity:0;animation:hl 6s ease-in-out infinite}@keyframes hl{0%,100%{opacity:0}5%{opacity:1}18%{opacity:0}}
+.chev{animation:chev 6s ease-in-out infinite}@keyframes chev{0%,100%{opacity:.28}9%{opacity:1}24%{opacity:.28}}
+.dash{animation:dash 2.4s linear infinite}@keyframes dash{to{stroke-dashoffset:-24}}
+.cell{animation:cell 4.6s ease-in-out infinite}@keyframes cell{0%,100%{opacity:.16}45%{opacity:.95}}.step{stroke-dasharray:34;animation:step 4.6s ease-in-out infinite}@keyframes step{0%{stroke-dashoffset:34}22%{stroke-dashoffset:0}90%{stroke-dashoffset:0}100%{stroke-dashoffset:34}}.fbar{animation:fbar 4.6s ease-in-out infinite}@keyframes fbar{0%,100%{opacity:.22}40%{opacity:1}}.proj{animation:proj 4.6s ease-in-out infinite}@keyframes proj{0%,100%{opacity:.12}50%{opacity:.8}}.pt{transform-box:fill-box;transform-origin:center;animation:pt 4.6s ease-in-out infinite}@keyframes pt{0%,100%{opacity:.45;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}.mrow{animation:mrow 4.6s ease-in-out infinite}@keyframes mrow{0%,100%{opacity:.35}42%{opacity:1}}.gauge{animation:gauge 4.6s ease-in-out infinite}@keyframes gauge{0%{stroke-dashoffset:var(--l)}34%{stroke-dashoffset:0}92%{stroke-dashoffset:0}100%{stroke-dashoffset:var(--l)}}.vec{animation:vec 4.6s linear infinite}@keyframes vec{0%{opacity:0;transform:translateX(0)}8%{opacity:1}92%{opacity:1}100%{opacity:0;transform:translateX(880px)}}.rank{animation:rank 4.4s ease-in-out infinite}@keyframes rank{0%,100%{opacity:.5}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<rect x="1" y="1" width="1198" height="330" rx="14" fill="url(#pg)"/>
+<rect x="1" y="1" width="1198" height="330" rx="14" fill="url(#grid)" opacity="0.5"/>
+<g filter="url(#soft)"><ellipse cx="180" cy="40" rx="320" ry="120" fill="url(#bl1)"/><ellipse cx="1000" cy="292" rx="320" ry="120" fill="url(#bl2)"/></g>
+<rect x="1" y="1" width="1198" height="330" rx="14" fill="none" stroke="#243044" stroke-width="1.3"/>
+<g><rect class="sw" x="0" y="1" width="600" height="1.6" fill="url(#tl)"/></g>
+<rect x="24" y="20" width="4" height="34" rx="2" fill="#8B5CF6"/>
+<text class="sans" x="40" y="42" font-size="28" font-weight="800" letter-spacing="2.6" fill="url(#ttl)">HEARTGUARD AI</text>
+<path d="M317,24 V50" stroke="#243044" stroke-width="1"/>
+<text x="333" y="32" font-size="10" letter-spacing="0.8" fill="#94A3B8">Cardiovascular risk classification on the UCI Heart Disease dataset</text>
+<text x="333" y="47" font-size="8.5" letter-spacing="1.5" fill="#475569">SCIKIT-LEARN &#183; XGBOOST &#183; STREAMLIT &#183; PLOTLY &#183; DOCKER &#183; GITHUB ACTIONS</text>
+<g><rect x="1116" y="18" width="60" height="38" rx="7" fill="#0F172A" stroke="#243044" stroke-width="1"/><text x="1146" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="0.6" fill="#8B5CF6">0.901</text><text x="1146" y="48" text-anchor="middle" font-size="7.5" letter-spacing="1.1" fill="#64748B">ROC-AUC</text></g>
+<g><rect x="1054" y="18" width="54" height="38" rx="7" fill="#0F172A" stroke="#243044" stroke-width="1"/><text x="1081" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="0.6" fill="#8B5CF6">4</text><text x="1081" y="48" text-anchor="middle" font-size="7.5" letter-spacing="1.1" fill="#64748B">MODELS</text></g>
+<g><rect x="981" y="18" width="65" height="38" rx="7" fill="#0F172A" stroke="#243044" stroke-width="1"/><text x="1014" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="0.6" fill="#8B5CF6">13</text><text x="1014" y="48" text-anchor="middle" font-size="7.5" letter-spacing="1.1" fill="#64748B">FEATURES</text></g>
+<g><rect x="914" y="18" width="59" height="38" rx="7" fill="#0F172A" stroke="#243044" stroke-width="1"/><text x="944" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="0.6" fill="#8B5CF6">303</text><text x="944" y="48" text-anchor="middle" font-size="7.5" letter-spacing="1.1" fill="#64748B">RECORDS</text></g>
+<path d="M24,68 H1176" stroke="#1E293B" stroke-width="1"/>
+<text x="24" y="76" font-size="8" letter-spacing="2.2" fill="#475569">INFERENCE PIPELINE</text>
+<path class="chev" d="M242,141.0 L247,146.0 L242,151.0" fill="none" stroke="#8B5CF6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.00s"/>
+<path class="chev" d="M462,141.0 L467,146.0 L462,151.0" fill="none" stroke="#8B5CF6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.60s"/>
+<path class="chev" d="M692,141.0 L697,146.0 L692,151.0" fill="none" stroke="#8B5CF6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.20s"/>
+<path class="chev" d="M928,141.0 L933,146.0 L928,151.0" fill="none" stroke="#22C55E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.80s"/>
+<rect x="24" y="80" width="212" height="132" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="38" y="98" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">PATIENT FEATURES</text>
+<text x="222" y="98" text-anchor="end" font-size="8" letter-spacing="1.1" fill="#475569">303 &#215; 13</text>
+<path d="M38,106 H222" stroke="#1E293B" stroke-width="1"/>
+<rect class="cell" x="38" y="120" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.00s"/>
+<rect class="cell" x="56" y="120" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.09s"/>
+<rect class="cell" x="74" y="120" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.18s"/>
+<rect class="cell" x="92" y="120" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.27s"/>
+<rect class="cell" x="110" y="120" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.36s"/>
+<rect class="cell" x="128" y="120" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.45s"/>
+<rect class="cell" x="146" y="120" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.54s"/>
+<rect class="cell" x="164" y="120" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.63s"/>
+<rect class="cell" x="182" y="120" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.72s"/>
+<rect class="cell" x="200" y="120" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.81s"/>
+<rect class="cell" x="38" y="134" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.11s"/>
+<rect class="cell" x="56" y="134" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.20s"/>
+<rect class="cell" x="74" y="134" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.29s"/>
+<rect class="cell" x="92" y="134" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.38s"/>
+<rect class="cell" x="110" y="134" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.47s"/>
+<rect class="cell" x="128" y="134" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.56s"/>
+<rect class="cell" x="146" y="134" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.65s"/>
+<rect class="cell" x="164" y="134" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.74s"/>
+<rect class="cell" x="182" y="134" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.83s"/>
+<rect class="cell" x="200" y="134" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.92s"/>
+<rect class="cell" x="38" y="148" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.22s"/>
+<rect class="cell" x="56" y="148" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.31s"/>
+<rect class="cell" x="74" y="148" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.40s"/>
+<rect class="cell" x="92" y="148" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.49s"/>
+<rect class="cell" x="110" y="148" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.58s"/>
+<rect class="cell" x="128" y="148" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.67s"/>
+<rect class="cell" x="146" y="148" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.76s"/>
+<rect class="cell" x="164" y="148" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.85s"/>
+<rect class="cell" x="182" y="148" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.94s"/>
+<rect class="cell" x="200" y="148" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:1.03s"/>
+<rect class="cell" x="38" y="162" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.33s"/>
+<rect class="cell" x="56" y="162" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.42s"/>
+<rect class="cell" x="74" y="162" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.51s"/>
+<rect class="cell" x="92" y="162" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.60s"/>
+<rect class="cell" x="110" y="162" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.69s"/>
+<rect class="cell" x="128" y="162" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.78s"/>
+<rect class="cell" x="146" y="162" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.87s"/>
+<rect class="cell" x="164" y="162" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.96s"/>
+<rect class="cell" x="182" y="162" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:1.05s"/>
+<rect class="cell" x="200" y="162" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:1.14s"/>
+<rect class="cell" x="38" y="176" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.44s"/>
+<rect class="cell" x="56" y="176" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.53s"/>
+<rect class="cell" x="74" y="176" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.62s"/>
+<rect class="cell" x="92" y="176" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.71s"/>
+<rect class="cell" x="110" y="176" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.80s"/>
+<rect class="cell" x="128" y="176" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.89s"/>
+<rect class="cell" x="146" y="176" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:0.98s"/>
+<rect class="cell" x="164" y="176" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:1.07s"/>
+<rect class="cell" x="182" y="176" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:1.16s"/>
+<rect class="cell" x="200" y="176" width="15" height="11" rx="2" fill="#22D3EE" style="animation-delay:1.25s"/>
+<text x="38" y="200" font-size="7.5" letter-spacing="0.9" fill="#475569">age &#183; chol &#183; thalach &#183; ca &#183; thal</text>
+<rect x="256" y="80" width="200" height="132" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="270" y="98" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">RESAMPLING AND CV</text>
+<path d="M270,106 H442" stroke="#1E293B" stroke-width="1"/>
+<circle class="pn" cx="274" cy="123" r="2.8" fill="#22D3EE" style="animation-delay:0.00s"/>
+<text x="284" y="126" font-size="9" letter-spacing="0.3" fill="#94A3B8">SMOTE oversample</text>
+<path d="M408,123 h34" stroke="#243044" stroke-width="3" stroke-linecap="round"/>
+<path class="step" d="M408,123 h34" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" style="animation-delay:0.00s"/>
+<circle class="pn" cx="274" cy="145" r="2.8" fill="#22D3EE" style="animation-delay:0.30s"/>
+<text x="284" y="148" font-size="9" letter-spacing="0.3" fill="#94A3B8">stratified CV</text>
+<path d="M408,145 h34" stroke="#243044" stroke-width="3" stroke-linecap="round"/>
+<path class="step" d="M408,145 h34" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" style="animation-delay:0.30s"/>
+<circle class="pn" cx="274" cy="167" r="2.8" fill="#22D3EE" style="animation-delay:0.60s"/>
+<text x="284" y="170" font-size="9" letter-spacing="0.3" fill="#94A3B8">grid search</text>
+<path d="M408,167 h34" stroke="#243044" stroke-width="3" stroke-linecap="round"/>
+<path class="step" d="M408,167 h34" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" style="animation-delay:0.60s"/>
+<circle class="pn" cx="274" cy="189" r="2.8" fill="#22D3EE" style="animation-delay:0.90s"/>
+<text x="284" y="192" font-size="9" letter-spacing="0.3" fill="#94A3B8">randomized search</text>
+<path d="M408,189 h34" stroke="#243044" stroke-width="3" stroke-linecap="round"/>
+<path class="step" d="M408,189 h34" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" style="animation-delay:0.90s"/>
+<rect x="476" y="80" width="210" height="132" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="490" y="98" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">FEATURE SELECTION</text>
+<path d="M490,106 H672" stroke="#1E293B" stroke-width="1"/>
+<rect class="fbar" x="492" y="172" width="5" height="16" rx="1.5" fill="#8B5CF6" style="animation-delay:0.00s"/>
+<rect class="fbar" x="499" y="158" width="5" height="30" rx="1.5" fill="#8B5CF6" style="animation-delay:0.13s"/>
+<rect class="fbar" x="506" y="166" width="5" height="22" rx="1.5" fill="#8B5CF6" style="animation-delay:0.26s"/>
+<rect class="fbar" x="513" y="148" width="5" height="40" rx="1.5" fill="#8B5CF6" style="animation-delay:0.39s"/>
+<rect class="fbar" x="520" y="176" width="5" height="12" rx="1.5" fill="#8B5CF6" style="animation-delay:0.52s"/>
+<rect class="fbar" x="527" y="154" width="5" height="34" rx="1.5" fill="#8B5CF6" style="animation-delay:0.65s"/>
+<rect class="fbar" x="534" y="162" width="5" height="26" rx="1.5" fill="#8B5CF6" style="animation-delay:0.78s"/>
+<rect class="fbar" x="541" y="144" width="5" height="44" rx="1.5" fill="#8B5CF6" style="animation-delay:0.91s"/>
+<rect class="fbar" x="548" y="170" width="5" height="18" rx="1.5" fill="#8B5CF6" style="animation-delay:1.04s"/>
+<rect class="fbar" x="555" y="150" width="5" height="38" rx="1.5" fill="#8B5CF6" style="animation-delay:1.17s"/>
+<rect class="fbar" x="562" y="164" width="5" height="24" rx="1.5" fill="#8B5CF6" style="animation-delay:1.30s"/>
+<rect class="fbar" x="569" y="156" width="5" height="32" rx="1.5" fill="#8B5CF6" style="animation-delay:1.43s"/>
+<rect class="fbar" x="576" y="168" width="5" height="20" rx="1.5" fill="#8B5CF6" style="animation-delay:1.56s"/>
+<path d="M490,191 H584" stroke="#243044" stroke-width="1"/>
+<text x="492" y="124" font-size="7.5" letter-spacing="1" fill="#64748B">13 FEATURES</text>
+<path class="chev" d="M590,163 L595,168 L590,173" fill="none" stroke="#8B5CF6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.60s"/>
+<text x="608" y="124" font-size="7.5" letter-spacing="1" fill="#64748B">PCA</text>
+<rect x="604" y="140" width="56" height="52" rx="4" fill="#0B1120" stroke="#1E293B" stroke-width="1"/>
+<path d="M610,186 L654,150" stroke="#8B5CF6" stroke-width="1.4" opacity="0.85"/>
+<path class="proj" d="M616,174 L620.7,177.3" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="1.5 2" style="animation-delay:0.00s"/>
+<circle class="pt" cx="616" cy="174" r="2.1" fill="#22D3EE" style="animation-delay:0.00s"/>
+<path class="proj" d="M622,168 L627.2,171.9" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="1.5 2" style="animation-delay:0.11s"/>
+<circle class="pt" cx="622" cy="168" r="2.1" fill="#22D3EE" style="animation-delay:0.11s"/>
+<path class="proj" d="M628,174 L627.9,171.4" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="1.5 2" style="animation-delay:0.22s"/>
+<circle class="pt" cx="628" cy="174" r="2.1" fill="#22D3EE" style="animation-delay:0.22s"/>
+<path class="proj" d="M630,162 L634.9,165.6" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="1.5 2" style="animation-delay:0.33s"/>
+<circle class="pt" cx="630" cy="162" r="2.1" fill="#22D3EE" style="animation-delay:0.33s"/>
+<path class="proj" d="M636,166 L636.6,164.3" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="1.5 2" style="animation-delay:0.44s"/>
+<circle class="pt" cx="636" cy="166" r="2.1" fill="#22D3EE" style="animation-delay:0.44s"/>
+<path class="proj" d="M640,156 L643.9,158.3" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="1.5 2" style="animation-delay:0.55s"/>
+<circle class="pt" cx="640" cy="156" r="2.1" fill="#22D3EE" style="animation-delay:0.55s"/>
+<path class="proj" d="M644,162 L643.3,158.7" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="1.5 2" style="animation-delay:0.66s"/>
+<circle class="pt" cx="644" cy="162" r="2.1" fill="#22D3EE" style="animation-delay:0.66s"/>
+<path class="proj" d="M620,180 L620.1,177.7" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="1.5 2" style="animation-delay:0.77s"/>
+<circle class="pt" cx="620" cy="180" r="2.1" fill="#22D3EE" style="animation-delay:0.77s"/>
+<path class="proj" d="M634,172 L632.4,167.6" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="1.5 2" style="animation-delay:0.88s"/>
+<circle class="pt" cx="634" cy="172" r="2.1" fill="#22D3EE" style="animation-delay:0.88s"/>
+<path class="proj" d="M648,154 L649.6,153.6" stroke="#8B5CF6" stroke-width="0.7" stroke-dasharray="1.5 2" style="animation-delay:0.99s"/>
+<circle class="pt" cx="648" cy="154" r="2.1" fill="#22D3EE" style="animation-delay:0.99s"/>
+<rect x="706" y="80" width="216" height="132" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="720" y="98" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">MODEL</text>
+<text x="908" y="98" text-anchor="end" font-size="8" letter-spacing="1.1" fill="#475569">4 COMPARED</text>
+<path d="M720,106 H908" stroke="#1E293B" stroke-width="1"/>
+<path d="M852,123 Q878,123 904,164" fill="none" stroke="#22C55E" stroke-width="1.4" opacity="0.75"/>
+<circle class="pn" cx="726" cy="123" r="3" fill="#22C55E" style="animation-delay:0.00s"/>
+<text class="mrow" x="736" y="126" font-size="9" letter-spacing="0.4" fill="#F8FAFC" style="animation-delay:0.00s">RANDOM FOREST</text>
+<path d="M852,143 Q878,143 904,164" fill="none" stroke="#8B5CF6" stroke-width="0.8" opacity="0.32"/>
+<circle class="pn" cx="726" cy="143" r="3" fill="#8B5CF6" style="animation-delay:0.24s"/>
+<text class="mrow" x="736" y="146" font-size="9" letter-spacing="0.4" fill="#94A3B8" style="animation-delay:0.24s">XGBOOST</text>
+<path d="M852,163 Q878,163 904,164" fill="none" stroke="#8B5CF6" stroke-width="0.8" opacity="0.32"/>
+<circle class="pn" cx="726" cy="163" r="3" fill="#8B5CF6" style="animation-delay:0.48s"/>
+<text class="mrow" x="736" y="166" font-size="9" letter-spacing="0.4" fill="#94A3B8" style="animation-delay:0.48s">SVM</text>
+<path d="M852,183 Q878,183 904,164" fill="none" stroke="#8B5CF6" stroke-width="0.8" opacity="0.32"/>
+<circle class="pn" cx="726" cy="183" r="3" fill="#8B5CF6" style="animation-delay:0.72s"/>
+<text class="mrow" x="736" y="186" font-size="9" letter-spacing="0.4" fill="#94A3B8" style="animation-delay:0.72s">LOGISTIC REGRESSION</text>
+<circle class="rg" cx="904" cy="164" r="7" fill="none" stroke="#22C55E" stroke-width="1.2"/>
+<circle cx="904" cy="164" r="5" fill="#22C55E" filter="url(#g2)"/>
+<text x="736" y="202" font-size="7.5" letter-spacing="1" fill="#22C55E">&#10003; RANDOM FOREST LEADS</text>
+<rect x="942" y="80" width="234" height="132" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="956" y="98" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">EVALUATION</text>
+<text x="1162" y="98" text-anchor="end" font-size="8" letter-spacing="1.1" fill="#475569">RANDOM FOREST</text>
+<path d="M956,106 H1162" stroke="#1E293B" stroke-width="1"/>
+<text x="956" y="126" font-size="8" letter-spacing="1.2" fill="#64748B">ACCURACY</text>
+<text x="1162" y="126" text-anchor="end" font-size="11.5" font-weight="700" letter-spacing="0.5" fill="#22C55E">85.2%</text>
+<path d="M956,134 h206" stroke="#243044" stroke-width="3.4" stroke-linecap="round"/>
+<path class="gauge" d="M956,134 h175.5" stroke="#22C55E" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="175.5" style="--l:175.5;animation-delay:0.00s"/>
+<text x="956" y="154" font-size="8" letter-spacing="1.2" fill="#64748B">F1 SCORE</text>
+<text x="1162" y="154" text-anchor="end" font-size="11.5" font-weight="700" letter-spacing="0.5" fill="#22C55E">0.847</text>
+<path d="M956,162 h206" stroke="#243044" stroke-width="3.4" stroke-linecap="round"/>
+<path class="gauge" d="M956,162 h174.5" stroke="#22C55E" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="174.5" style="--l:174.5;animation-delay:0.24s"/>
+<text x="956" y="182" font-size="8" letter-spacing="1.2" fill="#64748B">ROC-AUC</text>
+<text x="1162" y="182" text-anchor="end" font-size="11.5" font-weight="700" letter-spacing="0.5" fill="#22C55E">0.901</text>
+<path d="M956,190 h206" stroke="#243044" stroke-width="3.4" stroke-linecap="round"/>
+<path class="gauge" d="M956,190 h185.6" stroke="#22C55E" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="185.6" style="--l:185.6;animation-delay:0.48s"/>
+<rect x="24" y="226" width="736" height="82" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="38" y="244" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">TOP PREDICTIVE FEATURES</text>
+<text x="746" y="244" text-anchor="end" font-size="8" letter-spacing="1.1" fill="#475569">RANKED</text>
+<path d="M38,252 H746" stroke="#1E293B" stroke-width="1"/>
+<circle class="rank" cx="46" cy="278" r="8" fill="#162033" stroke="#22D3EE" stroke-width="1.1" style="animation-delay:0.00s"/>
+<text x="46" y="281" text-anchor="middle" font-size="8" fill="#22D3EE">1</text>
+<text x="59" y="281" font-size="8.5" letter-spacing="0.3" fill="#94A3B8">chest pain type</text>
+<circle class="rank" cx="177" cy="278" r="8" fill="#162033" stroke="#22D3EE" stroke-width="1.1" style="animation-delay:0.28s"/>
+<text x="177" y="281" text-anchor="middle" font-size="8" fill="#22D3EE">2</text>
+<text x="190" y="281" font-size="8.5" letter-spacing="0.3" fill="#94A3B8">maximum heart rate</text>
+<circle class="rank" cx="324" cy="278" r="8" fill="#162033" stroke="#22D3EE" stroke-width="1.1" style="animation-delay:0.56s"/>
+<text x="324" y="281" text-anchor="middle" font-size="8" fill="#22D3EE">3</text>
+<text x="337" y="281" font-size="8.5" letter-spacing="0.3" fill="#94A3B8">ST depression</text>
+<circle class="rank" cx="443" cy="278" r="8" fill="#162033" stroke="#22D3EE" stroke-width="1.1" style="animation-delay:0.84s"/>
+<text x="443" y="281" text-anchor="middle" font-size="8" fill="#22D3EE">4</text>
+<text x="456" y="281" font-size="8.5" letter-spacing="0.3" fill="#94A3B8">major vessel count</text>
+<circle class="rank" cx="590" cy="278" r="8" fill="#162033" stroke="#22D3EE" stroke-width="1.1" style="animation-delay:1.12s"/>
+<text x="590" y="281" text-anchor="middle" font-size="8" fill="#22D3EE">5</text>
+<text x="603" y="281" font-size="8.5" letter-spacing="0.3" fill="#94A3B8">thalassemia type</text>
+<rect x="776" y="226" width="400" height="82" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="790" y="244" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">TRAINING AND DEPLOYMENT</text>
+<path d="M790,252 H1162" stroke="#1E293B" stroke-width="1"/>
+<g><rect x="790" y="260" width="113" height="20" rx="5" fill="#0B1120" stroke="#243044" stroke-width="1"/><circle class="led" cx="800" cy="270" r="2.6" fill="#22C55E" style="animation-delay:0.00s"/><text x="809" y="273.5" font-size="8" letter-spacing="0.7" fill="#94A3B8">APP: STREAMLIT</text></g>
+<g><rect x="911" y="260" width="113" height="20" rx="5" fill="#0B1120" stroke="#243044" stroke-width="1"/><circle class="led" cx="921" cy="270" r="2.6" fill="#22C55E" style="animation-delay:0.35s"/><text x="930" y="273.5" font-size="8" letter-spacing="0.7" fill="#94A3B8">CHARTS: PLOTLY</text></g>
+<g><rect x="790" y="284" width="107" height="20" rx="5" fill="#0B1120" stroke="#243044" stroke-width="1"/><circle class="led" cx="800" cy="294" r="2.6" fill="#22C55E" style="animation-delay:0.00s"/><text x="809" y="297.5" font-size="8" letter-spacing="0.7" fill="#94A3B8">IMAGE: DOCKER</text></g>
+<g><rect x="905" y="284" width="137" height="20" rx="5" fill="#0B1120" stroke="#243044" stroke-width="1"/><circle class="led" cx="915" cy="294" r="2.6" fill="#22C55E" style="animation-delay:0.35s"/><text x="924" y="297.5" font-size="8" letter-spacing="0.7" fill="#94A3B8">CI: GITHUB ACTIONS</text></g>
 </svg>

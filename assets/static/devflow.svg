@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 196" width="1200" height="196" role="img" aria-label="Development flow. Commits accumulate on the main branch with a feature branch that diverges and merges back, feeding a continuous integration pipeline: commit, build, test, deploy." preserveAspectRatio="xMidYMid meet">
+<title>Static (reduced motion): Development flow</title>
+
+<defs>
+<linearGradient id="pg" x1="0" y1="0" x2="0.55" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="0.5" stop-color="#0B1120"/><stop offset="1" stop-color="#050A12"/></linearGradient>
+<linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F8FAFC"/><stop offset="0.55" stop-color="#22C55E"/><stop offset="1" stop-color="#06B6D4"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22C55E" stop-opacity="0"/><stop offset="0.5" stop-color="#22C55E" stop-opacity="0.9"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></linearGradient>
+<linearGradient id="pk" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22C55E" stop-opacity="0"/><stop offset="0.6" stop-color="#22C55E"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+<linearGradient id="pkb" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#22C55E" stop-opacity="0"/><stop offset="0.6" stop-color="#22C55E"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+<radialGradient id="bl1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#22C55E" stop-opacity="0.15"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+<radialGradient id="bl2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#06B6D4" stop-opacity="0.13"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#101D30" stroke-width="1"/></pattern>
+<filter id="g2" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="g3" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft"><feGaussianBlur stdDeviation="30"/></filter>
+<style>
+text{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace}.sans{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}
+.sw{}
+.led{}
+.pn{transform-box:fill-box;transform-origin:center;}
+.rg{transform-box:fill-box;transform-origin:center;}
+.hl{opacity:0;}
+.chev{}
+.dash{}
+.cm{transform-box:fill-box;transform-origin:center;}.seg{}.stg{opacity:0;}.ok{opacity:0;}.run{}
+@media (prefers-reduced-motion:reduce){*{}}
+*{animation:none!important}.tp{transform:none!important}.hl,.stg,.nact,.drop,.scan{opacity:0!important}.tick,.ok{opacity:1!important;transform:none!important}.duty{opacity:0!important}.duty-base{opacity:1!important}.req,.res,.pkt,.bus,.fl,.run,.dp,.up,.dn,.trav,.vec{opacity:0!important}</style></defs>
+<rect x="1" y="1" width="1198" height="194" rx="14" fill="url(#pg)"/>
+<rect x="1" y="1" width="1198" height="194" rx="14" fill="url(#grid)" opacity="0.5"/>
+<g filter="url(#soft)"><ellipse cx="180" cy="40" rx="320" ry="120" fill="url(#bl1)"/><ellipse cx="1000" cy="156" rx="320" ry="120" fill="url(#bl2)"/></g>
+<rect x="1" y="1" width="1198" height="194" rx="14" fill="none" stroke="#243044" stroke-width="1.3"/>
+<g><rect class="sw" x="0" y="1" width="600" height="1.6" fill="url(#tl)"/></g>
+<text x="24" y="30" class="sans" font-size="13" font-weight="700" letter-spacing="2" fill="#F8FAFC">DEVELOPMENT FLOW</text>
+<text x="1176" y="30" text-anchor="end" font-size="8" letter-spacing="1.4" fill="#475569">BRANCH &#183; COMMIT &#183; BUILD &#183; TEST &#183; DEPLOY</text>
+<path d="M24,42 H1176" stroke="#1E293B" stroke-width="1"/>
+<rect x="24" y="56" width="580" height="118" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="38" y="74" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">SOURCE CONTROL</text>
+<text x="590" y="74" text-anchor="end" font-size="8" letter-spacing="1.1" fill="#475569">GIT</text>
+<path d="M38,82 H590" stroke="#1E293B" stroke-width="1"/>
+<text x="40" y="152" font-size="7.5" letter-spacing="0.9" fill="#475569">main</text>
+<text x="40" y="112" font-size="7.5" letter-spacing="0.9" fill="#475569">feature</text>
+<path d="M90,148 H524" stroke="#243044" stroke-width="1.6"/>
+<path class="seg" d="M90,148 H524" stroke="#06B6D4" stroke-width="1.6" stroke-dasharray="434" style="--l:434"/>
+<path d="M152,148 C180,148 200,108 214,108 H338 C366,108 386,148 400,148" fill="none" stroke="#243044" stroke-width="1.4"/>
+<path class="seg" d="M152,148 C180,148 200,108 214,108 H338 C366,108 386,148 400,148" fill="none" stroke="#8B5CF6" stroke-width="1.4" stroke-dasharray="300" style="--l:300;"/>
+<circle class="cm" cx="90" cy="148" r="5" fill="#162033" stroke="#06B6D4" stroke-width="1.5" />
+<circle class="cm" cx="90" cy="148" r="2.2" fill="#06B6D4" />
+<circle class="cm" cx="152" cy="148" r="5" fill="#162033" stroke="#06B6D4" stroke-width="1.5" />
+<circle class="cm" cx="152" cy="148" r="2.2" fill="#06B6D4" />
+<circle class="cm" cx="214" cy="148" r="5" fill="#162033" stroke="#06B6D4" stroke-width="1.5" />
+<circle class="cm" cx="214" cy="148" r="2.2" fill="#06B6D4" />
+<circle class="cm" cx="276" cy="148" r="5" fill="#162033" stroke="#06B6D4" stroke-width="1.5" />
+<circle class="cm" cx="276" cy="148" r="2.2" fill="#06B6D4" />
+<circle class="cm" cx="338" cy="148" r="5" fill="#162033" stroke="#06B6D4" stroke-width="1.5" />
+<circle class="cm" cx="338" cy="148" r="2.2" fill="#06B6D4" />
+<circle class="cm" cx="400" cy="148" r="5" fill="#162033" stroke="#06B6D4" stroke-width="1.5" />
+<circle class="cm" cx="400" cy="148" r="2.2" fill="#06B6D4" />
+<circle class="cm" cx="462" cy="148" r="5" fill="#162033" stroke="#06B6D4" stroke-width="1.5" />
+<circle class="cm" cx="462" cy="148" r="2.2" fill="#06B6D4" />
+<circle class="cm" cx="524" cy="148" r="5" fill="#162033" stroke="#06B6D4" stroke-width="1.5" />
+<circle class="cm" cx="524" cy="148" r="2.2" fill="#06B6D4" />
+<circle class="cm" cx="214" cy="108" r="4.4" fill="#162033" stroke="#8B5CF6" stroke-width="1.4" />
+<circle class="cm" cx="214" cy="108" r="2" fill="#8B5CF6" />
+<circle class="cm" cx="276" cy="108" r="4.4" fill="#162033" stroke="#8B5CF6" stroke-width="1.4" />
+<circle class="cm" cx="276" cy="108" r="2" fill="#8B5CF6" />
+<circle class="cm" cx="338" cy="108" r="4.4" fill="#162033" stroke="#8B5CF6" stroke-width="1.4" />
+<circle class="cm" cx="338" cy="108" r="2" fill="#8B5CF6" />
+<text x="400" y="168" text-anchor="middle" font-size="6.5" letter-spacing="0.6" fill="#475569">merge</text>
+<text x="152" y="168" text-anchor="middle" font-size="6.5" letter-spacing="0.6" fill="#475569">branch</text>
+<rect x="624" y="56" width="552" height="118" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="638" y="74" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">CONTINUOUS INTEGRATION</text>
+<text x="1162" y="74" text-anchor="end" font-size="8" letter-spacing="1.1" fill="#475569">GITHUB ACTIONS</text>
+<path d="M638,82 H1162" stroke="#1E293B" stroke-width="1"/>
+<path d="M646,122 H1166" stroke="#243044" stroke-width="1" stroke-dasharray="2 4"/>
+<rect x="646" y="96" width="118" height="52" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="stg" x="646" y="96" width="118" height="52" rx="8" fill="#06B6D4" fill-opacity="0.11" stroke="#06B6D4" stroke-width="1.3" />
+<text x="660" y="118" font-size="10" font-weight="700" letter-spacing="1.2" fill="#06B6D4">COMMIT</text>
+<g class="ok" style="transform-box:fill-box;transform-origin:center;"><path d="M738,114 l4,4.5 l7.5,-9" fill="none" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="660" y="136" font-size="7.5" letter-spacing="0.5" fill="#64748B">push</text>
+<path class="chev" d="M768,118 L772,122 L768,126" fill="none" stroke="#06B6D4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="780" y="96" width="118" height="52" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="stg" x="780" y="96" width="118" height="52" rx="8" fill="#3B82F6" fill-opacity="0.11" stroke="#3B82F6" stroke-width="1.3" />
+<text x="794" y="118" font-size="10" font-weight="700" letter-spacing="1.2" fill="#3B82F6">BUILD</text>
+<g class="ok" style="transform-box:fill-box;transform-origin:center;"><path d="M872,114 l4,4.5 l7.5,-9" fill="none" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="794" y="136" font-size="7.5" letter-spacing="0.5" fill="#64748B">container</text>
+<path class="chev" d="M902,118 L906,122 L902,126" fill="none" stroke="#3B82F6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="914" y="96" width="118" height="52" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="stg" x="914" y="96" width="118" height="52" rx="8" fill="#8B5CF6" fill-opacity="0.11" stroke="#8B5CF6" stroke-width="1.3" />
+<text x="928" y="118" font-size="10" font-weight="700" letter-spacing="1.2" fill="#8B5CF6">TEST</text>
+<g class="ok" style="transform-box:fill-box;transform-origin:center;"><path d="M1006,114 l4,4.5 l7.5,-9" fill="none" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="928" y="136" font-size="7.5" letter-spacing="0.5" fill="#64748B">pytest</text>
+<path class="chev" d="M1036,118 L1040,122 L1036,126" fill="none" stroke="#8B5CF6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="1048" y="96" width="118" height="52" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="stg" x="1048" y="96" width="118" height="52" rx="8" fill="#22C55E" fill-opacity="0.11" stroke="#22C55E" stroke-width="1.3" />
+<text x="1062" y="118" font-size="10" font-weight="700" letter-spacing="1.2" fill="#22C55E">DEPLOY</text>
+<g class="ok" style="transform-box:fill-box;transform-origin:center;"><path d="M1140,114 l4,4.5 l7.5,-9" fill="none" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="1062" y="136" font-size="7.5" letter-spacing="0.5" fill="#64748B">release</text>
+<circle class="run" cx="646" cy="122" r="2.6" fill="#F8FAFC" filter="url(#g2)"/>
+</svg>

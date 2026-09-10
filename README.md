@@ -1,28 +1,30 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Youssef Fahem Amin, Software Engineer" />
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/hero.svg" /><img src="./assets/hero.svg" width="100%" alt="Youssef Fahem Amin, Software Engineer. An engineering workstation showing a machine learning pipeline from data ingestion through preprocessing, feature selection, model, inference and application, a neural network inference graph, and a terminal running a training pipeline." /></picture>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3800&pause=900&color=FF2D75&center=true&vCenter=true&width=920&height=52&lines=Software+Engineer+building+full-stack+and+data+systems;Flask+and+MySQL+platforms+with+enforced+schema+integrity;Machine+learning+pipelines+with+scikit-learn+and+XGBoost;Flutter+apps%2C+computer+vision+and+embedded+C%2FC%2B%2B" alt="Software Engineer building full-stack and data systems" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3600&pause=900&color=06B6D4&center=true&vCenter=true&width=900&height=48&lines=Building+intelligent+systems+end+to+end;Engineering+ML+pipelines+with+scikit-learn+and+XGBoost;Designing+relational+schemas+with+enforced+integrity;Full-stack+applications+on+Flask+and+MySQL;Computer+vision+and+embedded+C%2FC%2B%2B;From+raw+data+to+deployed+inference" alt="Building intelligent systems end to end. Engineering ML pipelines with scikit-learn and XGBoost. Designing relational schemas with enforced integrity. Full-stack applications on Flask and MySQL. Computer vision and embedded C/C++. From raw data to deployed inference." />
 </div>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/yousef-fahem/"><img src="https://img.shields.io/badge/LINKEDIN-yousef--fahem0-DC143C?style=for-the-badge&logo=linkedin&logoColor=FF9CC8&labelColor=0A0117" alt="LinkedIn" /></a>
-  <a href="mailto:yousef.fahem11@gmail.com"><img src="https://img.shields.io/badge/EMAIL-yousef.fahem11@gmail.com-FF2D75?style=for-the-badge&logo=gmail&logoColor=FF9CC8&labelColor=0A0117" alt="Email" /></a>
-  <a href="https://x.com/YousefFahem0"><img src="https://img.shields.io/badge/X-yousef11hasson-8B0020?style=for-the-badge&logo=x&logoColor=FF9CC8&labelColor=0A0117" alt="X" /></a>
-  <a href="https://github.com/youseffahem"><img src="https://img.shields.io/badge/GITHUB-youseffahem-DC143C?style=for-the-badge&logo=github&logoColor=FF9CC8&labelColor=0A0117" alt="GitHub" /></a>
-  <br/>
-  <img src="https://img.shields.io/badge/BASED_IN-EGYPT-2A0426?style=flat-square&labelColor=0A0117&color=8B0020" alt="Based in Egypt" />
-  <img src="https://komarev.com/ghpvc/?username=youseffahem&label=PROFILE+VIEWS&color=8B0020&style=flat-square" alt="Profile views" />
+
+<a href="https://www.linkedin.com/in/yousef-fahem/"><img src="https://img.shields.io/badge/LINKEDIN-yousef--fahem-3B82F6?style=for-the-badge&logo=linkedin&logoColor=F8FAFC&labelColor=0B1120" alt="LinkedIn: yousef-fahem" /></a>
+<a href="mailto:yousef.fahem11@gmail.com"><img src="https://img.shields.io/badge/EMAIL-yousef.fahem11@gmail.com-06B6D4?style=for-the-badge&logo=gmail&logoColor=F8FAFC&labelColor=0B1120" alt="Email: yousef.fahem11@gmail.com" /></a>
+<a href="https://github.com/youseffahem"><img src="https://img.shields.io/badge/GITHUB-youseffahem-8B5CF6?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0B1120" alt="GitHub: youseffahem" /></a>
+<a href="https://x.com/YousefFahem0"><img src="https://img.shields.io/badge/X-YousefFahem0-64748B?style=for-the-badge&logo=x&logoColor=F8FAFC&labelColor=0B1120" alt="X: YousefFahem0" /></a>
+
+<img src="https://img.shields.io/badge/BASED_IN-EGYPT-0B1120?style=flat-square&labelColor=0B1120&color=1E293B" alt="Based in Egypt" />
+<img src="https://komarev.com/ghpvc/?username=youseffahem&label=PROFILE+VIEWS&color=1E293B&style=flat-square" alt="Profile views" />
+
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/divider.svg" /><img src="./assets/divider.svg" width="100%" alt="" /></picture>
 
-<img src="./assets/section-about.svg" width="100%" alt="Section: About" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/section-about.svg" /><img src="./assets/section-about.svg" width="100%" alt="Section: About. System profile, domains, architecture and capability matrix." /></picture>
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="57%" valign="top">
 
 <p>I build software across the full depth of the stack &mdash; from normalized relational schemas and server-rendered web applications, through supervised machine learning pipelines, down to firmware running on 8-bit microcontrollers.</p>
 
@@ -30,122 +32,54 @@
 
 <p>Alongside that I work in applied machine learning &mdash; comparative model evaluation, feature selection and resampling on clinical and image datasets &mdash; and in embedded C/C++, building PWM control, analog sensor automation and state-machine-driven interactive systems on Arduino.</p>
 
-<table>
-<tr><td><b>Backend</b></td><td>Relational schema design, data integrity, server-rendered apps, JSON APIs</td></tr>
-<tr><td><b>Machine Learning</b></td><td>Feature selection, resampling, hyperparameter search, model comparison</td></tr>
-<tr><td><b>Computer Vision</b></td><td>Real-time landmark tracking and gesture-driven interaction</td></tr>
-<tr><td><b>Mobile</b></td><td>Cross-platform Flutter applications with local and cloud persistence</td></tr>
-<tr><td><b>Embedded</b></td><td>GPIO, PWM, UART, analog sensing, state machines</td></tr>
-<tr><td><b>Testing</b></td><td>pytest suites covering API, validation, schema and analytics layers</td></tr>
-</table>
+<h4>Capability matrix</h4>
+
+<ul>
+<li><b>Backend</b> &mdash; relational schema design, data integrity, server-rendered apps, JSON APIs</li>
+<li><b>Machine Learning</b> &mdash; feature selection, resampling, hyperparameter search, model comparison</li>
+<li><b>Computer Vision</b> &mdash; real-time landmark tracking and gesture-driven interaction</li>
+<li><b>Mobile</b> &mdash; cross-platform Flutter applications with local and cloud persistence</li>
+<li><b>Embedded</b> &mdash; GPIO, PWM, UART, analog sensing, state machines</li>
+<li><b>Testing</b> &mdash; pytest suites covering API, validation, schema and analytics layers</li>
+</ul>
 
 </td>
-<td width="40%" valign="middle" align="center">
+<td width="43%" valign="top">
 
-<img src="./assets/orbit.svg" width="100%" alt="Orbital diagram of engineering domains: backend, data, mobile, embedded" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/architecture.svg" /><img src="./assets/architecture.svg" width="100%" alt="Intelligent systems architecture. Six layers flow downward: data, processing, machine learning, backend, application and real-world impact. Below them sit six engineering domains: backend, machine learning, computer vision, mobile, embedded and testing." /></picture>
 
 </td>
 </tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/divider.svg" /><img src="./assets/divider.svg" width="100%" alt="" /></picture>
 
-<img src="./assets/section-stack.svg" width="100%" alt="Section: Technology Stack" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/section-stack.svg" /><img src="./assets/section-stack.svg" width="100%" alt="Section: Technology stack, organised as engineering subsystems." /></picture>
 
 <div align="center">
 
-<h4>Backend and Data</h4>
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/stack-ml.svg" /><img src="./assets/stack-ml.svg" width="49%" alt="Machine learning subsystem. Technologies: scikit-learn, XGBoost, Pandas, NumPy, Streamlit, Plotly, Matplotlib, Seaborn, SMOTE, PCA. Flow: data to features to model to prediction." /></picture>
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/stack-backend.svg" /><img src="./assets/stack-backend.svg" width="49%" alt="Backend and data subsystem. Technologies: Python 3.11, Flask 3.1.1, Jinja2, MySQL InnoDB, Werkzeug, python-dotenv. Flow: request to validate to SQL to response." /></picture>
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/stack-cv.svg" /><img src="./assets/stack-cv.svg" width="49%" alt="Computer vision subsystem. Technologies: OpenCV, MediaPipe, PyCAW, ComTypes. Flow: frame to landmarks to gesture to action." /></picture>
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/stack-mobile.svg" /><img src="./assets/stack-mobile.svg" width="49%" alt="Mobile subsystem. Technologies: Flutter 3.10 plus, Dart 3.0 plus, Provider, Hive, Cloud Firestore, Firebase Auth. Flow: UI to provider to local to cloud." /></picture>
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/stack-frontend.svg" /><img src="./assets/stack-frontend.svg" width="49%" alt="Frontend subsystem. Technologies: HTML5, CSS3, Vanilla JavaScript, responsive design, accessibility. Flow: markup to style to interaction." /></picture>
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/stack-embedded.svg" /><img src="./assets/stack-embedded.svg" width="49%" alt="Embedded systems subsystem. Technologies: Embedded C and C++, Arduino Uno, Nano and Mega, PWM, GPIO, UART serial, analog sensing, state machines. Flow: sensor to microcontroller to PWM to output." /></picture>
 
-<img src="https://skillicons.dev/icons?i=py,flask,mysql&theme=dark" alt="Python, Flask, MySQL" />
-<br/>
-<img src="https://img.shields.io/badge/Python_3.11-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="Python 3.11" />
-<img src="https://img.shields.io/badge/Flask_3.1.1-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="Flask 3.1.1" />
-<img src="https://img.shields.io/badge/Jinja2-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="Jinja2" />
-<img src="https://img.shields.io/badge/MySQL_InnoDB-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="MySQL InnoDB" />
-<img src="https://img.shields.io/badge/Werkzeug-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="Werkzeug" />
-<img src="https://img.shields.io/badge/python--dotenv-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="python-dotenv" />
-
-<h4>Machine Learning and Data Science</h4>
-
-<img src="https://skillicons.dev/icons?i=sklearn,py&theme=dark" alt="scikit-learn, Python" />
-<br/>
-<img src="https://img.shields.io/badge/scikit--learn-FF2D75?style=flat-square&labelColor=0A0117&color=B01030" alt="scikit-learn" />
-<img src="https://img.shields.io/badge/XGBoost-FF2D75?style=flat-square&labelColor=0A0117&color=B01030" alt="XGBoost" />
-<img src="https://img.shields.io/badge/Pandas-FF2D75?style=flat-square&labelColor=0A0117&color=B01030" alt="Pandas" />
-<img src="https://img.shields.io/badge/NumPy-FF2D75?style=flat-square&labelColor=0A0117&color=B01030" alt="NumPy" />
-<img src="https://img.shields.io/badge/Streamlit-FF2D75?style=flat-square&labelColor=0A0117&color=B01030" alt="Streamlit" />
-<img src="https://img.shields.io/badge/Plotly-FF2D75?style=flat-square&labelColor=0A0117&color=B01030" alt="Plotly" />
-<img src="https://img.shields.io/badge/Matplotlib-FF2D75?style=flat-square&labelColor=0A0117&color=B01030" alt="Matplotlib" />
-<img src="https://img.shields.io/badge/Seaborn-FF2D75?style=flat-square&labelColor=0A0117&color=B01030" alt="Seaborn" />
-<img src="https://img.shields.io/badge/SMOTE-FF2D75?style=flat-square&labelColor=0A0117&color=B01030" alt="SMOTE" />
-<img src="https://img.shields.io/badge/PCA-FF2D75?style=flat-square&labelColor=0A0117&color=B01030" alt="PCA" />
-
-<h4>Computer Vision</h4>
-
-<img src="https://skillicons.dev/icons?i=opencv&theme=dark" alt="OpenCV" />
-<br/>
-<img src="https://img.shields.io/badge/OpenCV-FF4D9E?style=flat-square&labelColor=0A0117&color=8B0020" alt="OpenCV" />
-<img src="https://img.shields.io/badge/MediaPipe-FF4D9E?style=flat-square&labelColor=0A0117&color=8B0020" alt="MediaPipe" />
-<img src="https://img.shields.io/badge/PyCAW-FF4D9E?style=flat-square&labelColor=0A0117&color=8B0020" alt="PyCAW" />
-<img src="https://img.shields.io/badge/ComTypes-FF4D9E?style=flat-square&labelColor=0A0117&color=8B0020" alt="ComTypes" />
-
-<h4>Mobile</h4>
-
-<img src="https://skillicons.dev/icons?i=flutter,dart,firebase&theme=dark" alt="Flutter, Dart, Firebase" />
-<br/>
-<img src="https://img.shields.io/badge/Flutter_3.10+-DC143C?style=flat-square&labelColor=0A0117&color=B01030" alt="Flutter 3.10 plus" />
-<img src="https://img.shields.io/badge/Dart_3.0+-DC143C?style=flat-square&labelColor=0A0117&color=B01030" alt="Dart 3.0 plus" />
-<img src="https://img.shields.io/badge/Provider-DC143C?style=flat-square&labelColor=0A0117&color=B01030" alt="Provider" />
-<img src="https://img.shields.io/badge/Hive-DC143C?style=flat-square&labelColor=0A0117&color=B01030" alt="Hive" />
-<img src="https://img.shields.io/badge/Firestore-DC143C?style=flat-square&labelColor=0A0117&color=B01030" alt="Cloud Firestore" />
-<img src="https://img.shields.io/badge/Firebase_Auth-DC143C?style=flat-square&labelColor=0A0117&color=B01030" alt="Firebase Auth" />
-
-<h4>Embedded Systems</h4>
-
-<img src="https://skillicons.dev/icons?i=arduino,cpp,c&theme=dark" alt="Arduino, C++, C" />
-<br/>
-<img src="https://img.shields.io/badge/Embedded_C%2FC%2B%2B-8B0020?style=flat-square&labelColor=0A0117&color=DC143C" alt="Embedded C and C plus plus" />
-<img src="https://img.shields.io/badge/Arduino_Uno%2FNano%2FMega-8B0020?style=flat-square&labelColor=0A0117&color=DC143C" alt="Arduino Uno, Nano, Mega" />
-<img src="https://img.shields.io/badge/PWM-8B0020?style=flat-square&labelColor=0A0117&color=DC143C" alt="PWM" />
-<img src="https://img.shields.io/badge/GPIO-8B0020?style=flat-square&labelColor=0A0117&color=DC143C" alt="GPIO" />
-<img src="https://img.shields.io/badge/UART_Serial-8B0020?style=flat-square&labelColor=0A0117&color=DC143C" alt="UART Serial" />
-<img src="https://img.shields.io/badge/Analog_Sensing-8B0020?style=flat-square&labelColor=0A0117&color=DC143C" alt="Analog sensing" />
-<img src="https://img.shields.io/badge/State_Machines-8B0020?style=flat-square&labelColor=0A0117&color=DC143C" alt="State machines" />
-
-<h4>Frontend</h4>
-
-<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML5, CSS3, JavaScript" />
-<br/>
-<img src="https://img.shields.io/badge/HTML5-FF2D75?style=flat-square&labelColor=0A0117&color=8B0020" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-FF2D75?style=flat-square&labelColor=0A0117&color=8B0020" alt="CSS3" />
-<img src="https://img.shields.io/badge/Vanilla_JavaScript-FF2D75?style=flat-square&labelColor=0A0117&color=8B0020" alt="Vanilla JavaScript" />
-<img src="https://img.shields.io/badge/Responsive_Design-FF2D75?style=flat-square&labelColor=0A0117&color=8B0020" alt="Responsive design" />
-<img src="https://img.shields.io/badge/Accessibility-FF2D75?style=flat-square&labelColor=0A0117&color=8B0020" alt="Accessibility" />
-
-<h4>Testing, Tooling and DevOps</h4>
-
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,vscode&theme=dark" alt="Git, GitHub, GitHub Actions, Docker, VS Code" />
-<br/>
-<img src="https://img.shields.io/badge/pytest-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="pytest" />
-<img src="https://img.shields.io/badge/Flutter_Test-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="Flutter Test" />
-<img src="https://img.shields.io/badge/Git-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="Git" />
-<img src="https://img.shields.io/badge/Docker-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="Docker" />
-<img src="https://img.shields.io/badge/GitHub_Actions-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/Arduino_IDE-DC143C?style=flat-square&labelColor=0A0117&color=8B0020" alt="Arduino IDE" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/stack-devops.svg" /><img src="./assets/stack-devops.svg" width="100%" alt="Testing, tooling and DevOps subsystem. Technologies: pytest, Flutter Test, Git, Docker, GitHub Actions, Arduino IDE. Flow: commit to build to test to deploy." /></picture>
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/divider.svg" /><img src="./assets/divider.svg" width="100%" alt="" /></picture>
 
-<img src="./assets/section-projects.svg" width="100%" alt="Section: Featured Projects" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/section-projects.svg" /><img src="./assets/section-projects.svg" width="100%" alt="Section: Featured projects, with architecture, implementation and results." /></picture>
 
 <a href="https://github.com/youseffahem/RealEstate">
-  <img src="./assets/card-realestate.svg" width="100%" alt="RealEstate, a Flask and MySQL property management platform" />
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/card-realestate.svg" /><img src="./assets/card-realestate.svg" width="100%" alt="RealEstate, a Flask and MySQL property management platform. A request travels from the client through a Flask route, validation module, parameterised SQL and MySQL InnoDB, and back as a Jinja2 rendered response. Six normalised tables are linked by foreign keys with restrict, set null and cascade delete rules, asserted by a 274-test suite." /></picture>
 </a>
 
 <table>
 <tr>
-<td width="66%" valign="top">
+<td width="70%" valign="top">
 
 <p>A server-rendered property management platform that centralizes listings, agent assignments and customer inquiries in one normalized relational database. Consistency is enforced at the database layer through foreign keys, cascade rules and constraints rather than by convention.</p>
 
@@ -161,29 +95,33 @@
 </ul>
 
 </td>
-<td width="34%" valign="top">
+<td width="30%" valign="top">
 
-<img src="https://img.shields.io/badge/Python-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Python" /><br/>
-<img src="https://img.shields.io/badge/Flask_3.1.1-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Flask 3.1.1" /><br/>
-<img src="https://img.shields.io/badge/MySQL_InnoDB-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="MySQL InnoDB" /><br/>
-<img src="https://img.shields.io/badge/Jinja2-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Jinja2" /><br/>
-<img src="https://img.shields.io/badge/pytest_274_tests-8B0020?style=for-the-badge&labelColor=0A0117&color=FF2D75" alt="pytest, 274 tests" /><br/>
-<img src="https://img.shields.io/badge/Vanilla_JS_%26_CSS-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Vanilla JavaScript and CSS" /><br/><br/>
-<a href="https://github.com/youseffahem/RealEstate"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-0A0117?style=for-the-badge&logo=github&logoColor=FF9CC8&color=8B0020" alt="View the RealEstate repository" /></a>
+<b>STACK</b><br/>
+<sub>Python &middot; Flask 3.1.1 &middot; MySQL InnoDB &middot; Jinja2 &middot; Werkzeug &middot; pytest &middot; Vanilla JavaScript and CSS</sub>
+
+<br/><br/>
+
+<b>AT A GLANCE</b><br/>
+<sub>6 normalized tables<br/>274 passing tests<br/>12 KPIs and 5 charts<br/>Up to 12 images per property</sub>
+
+<br/><br/>
+
+<a href="https://github.com/youseffahem/RealEstate"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-3B82F6?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0B1120" alt="View the RealEstate repository" /></a>
 
 </td>
 </tr>
 </table>
 
 <a href="https://github.com/youseffahem/Hearts_Disease_Project">
-  <img src="./assets/card-heartguard.svg" width="100%" alt="HeartGuard AI, machine learning cardiovascular risk assessment" />
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/card-heartguard.svg" /><img src="./assets/card-heartguard.svg" width="100%" alt="HeartGuard AI, a machine learning system for cardiovascular risk assessment on the UCI Heart Disease dataset. 303 records by 13 clinical features pass through preprocessing, feature selection with recursive feature elimination and PCA, into four compared models: Random Forest, XGBoost, SVM and Logistic Regression. Random Forest leads with 85.2 percent accuracy, 0.847 F1 and 0.901 ROC-AUC." /></picture>
 </a>
 
 <table>
 <tr>
-<td width="66%" valign="top">
+<td width="70%" valign="top">
 
-<p>An end-to-end machine learning system for cardiovascular risk assessment, built on the UCI Heart Disease dataset and delivered through an interactive web interface.</p>
+<p>An end-to-end machine learning system for cardiovascular risk assessment, built on the UCI Heart Disease dataset and delivered through an interactive web interface. It is a risk-assessment and model-comparison project, not a medical diagnostic device.</p>
 
 <ul>
 <li><b>303 patient records, 13 clinical features</b>, binary classification across roughly 54 percent positive and 46 percent negative cases</li>
@@ -196,27 +134,31 @@
 </ul>
 
 </td>
-<td width="34%" valign="top">
+<td width="30%" valign="top">
 
-<img src="https://img.shields.io/badge/Python-8B0020?style=for-the-badge&labelColor=0A0117&color=FF2D75" alt="Python" /><br/>
-<img src="https://img.shields.io/badge/scikit--learn-8B0020?style=for-the-badge&labelColor=0A0117&color=FF2D75" alt="scikit-learn" /><br/>
-<img src="https://img.shields.io/badge/XGBoost-8B0020?style=for-the-badge&labelColor=0A0117&color=FF2D75" alt="XGBoost" /><br/>
-<img src="https://img.shields.io/badge/Streamlit-8B0020?style=for-the-badge&labelColor=0A0117&color=FF2D75" alt="Streamlit" /><br/>
-<img src="https://img.shields.io/badge/Plotly-8B0020?style=for-the-badge&labelColor=0A0117&color=FF2D75" alt="Plotly" /><br/>
-<img src="https://img.shields.io/badge/Docker-8B0020?style=for-the-badge&labelColor=0A0117&color=FF2D75" alt="Docker" /><br/><br/>
-<a href="https://github.com/youseffahem/Hearts_Disease_Project"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-0A0117?style=for-the-badge&logo=github&logoColor=FF9CC8&color=8B0020" alt="View the Hearts Disease Project repository" /></a>
+<b>STACK</b><br/>
+<sub>Python &middot; scikit-learn &middot; XGBoost &middot; Pandas &middot; NumPy &middot; Streamlit &middot; Plotly &middot; Docker &middot; GitHub Actions</sub>
+
+<br/><br/>
+
+<b>AT A GLANCE</b><br/>
+<sub>303 records, 13 features<br/>4 models compared<br/>85.2% accuracy<br/>0.847 F1 &middot; 0.901 ROC-AUC</sub>
+
+<br/><br/>
+
+<a href="https://github.com/youseffahem/Hearts_Disease_Project"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-8B5CF6?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0B1120" alt="View the Hearts Disease Project repository" /></a>
 
 </td>
 </tr>
 </table>
 
 <a href="https://github.com/youseffahem/Gym-App">
-  <img src="./assets/card-gym.svg" width="100%" alt="FitTracker Pro, a Flutter fitness tracking application" />
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/card-gym.svg" /><img src="./assets/card-gym.svg" width="100%" alt="Gym App, a cross-platform Flutter fitness tracking application. The mobile client drives Provider state management, which persists to Hive locally and synchronises with Cloud Firestore, with Firebase Auth for sign-in, and progress analytics computed on top. Seven main screens: login, home, exercises, workouts, profile and detail views." /></picture>
 </a>
 
 <table>
 <tr>
-<td width="66%" valign="top">
+<td width="70%" valign="top">
 
 <p>A cross-platform fitness tracking application built with Flutter, covering workout planning, exercise discovery and progress analytics in a single app.</p>
 
@@ -231,119 +173,128 @@
 </ul>
 
 </td>
-<td width="34%" valign="top">
+<td width="30%" valign="top">
 
-<img src="https://img.shields.io/badge/Flutter-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Flutter" /><br/>
-<img src="https://img.shields.io/badge/Dart-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Dart" /><br/>
-<img src="https://img.shields.io/badge/Firebase-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Firebase" /><br/>
-<img src="https://img.shields.io/badge/Hive-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Hive" /><br/>
-<img src="https://img.shields.io/badge/Provider-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Provider" /><br/>
-<img src="https://img.shields.io/badge/MIT_Licence-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="MIT licence" /><br/><br/>
-<a href="https://github.com/youseffahem/Gym-App"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-0A0117?style=for-the-badge&logo=github&logoColor=FF9CC8&color=8B0020" alt="View the Gym-App repository" /></a>
+<b>STACK</b><br/>
+<sub>Flutter 3.10+ &middot; Dart 3.0+ &middot; Provider &middot; Hive &middot; Cloud Firestore &middot; Firebase Auth &middot; Flutter Test</sub>
+
+<br/><br/>
+
+<b>AT A GLANCE</b><br/>
+<sub>7 main screens<br/>Local and cloud persistence<br/>Progress analytics<br/>MIT licence</sub>
+
+<br/><br/>
+
+<a href="https://github.com/youseffahem/Gym-App"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-06B6D4?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0B1120" alt="View the Gym-App repository" /></a>
 
 </td>
 </tr>
 </table>
 
 <a href="https://github.com/youseffahem/Arduino-Projects-Collection">
-  <img src="./assets/card-arduino.svg" width="100%" alt="Arduino Projects Collection, embedded C and C plus plus firmware" />
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/card-arduino.svg" /><img src="./assets/card-arduino.svg" width="100%" alt="Arduino Projects Collection, five embedded systems projects in C and C++. The signal chain runs from analog sensor input, through the microcontroller and a state machine, out to PWM and GPIO, and finally to LED and buzzer output. The five projects are Controlled LED, Disco Strobe Light, Light Dimmer, Memory Game and Plant Monitor." /></picture>
 </a>
 
 <table>
 <tr>
-<td width="66%" valign="top">
+<td width="70%" valign="top">
 
 <p>Five embedded systems projects on the Arduino platform, progressing from basic digital I/O through PWM signal control to state-machine game logic and closed-loop sensor automation. Each project ships with its own source, circuit diagram, demo and README.</p>
 
-<table>
-<tr><td><b>Controlled LED</b></td><td>Digital input and output, GPIO control with <code>pinMode</code>, <code>digitalRead</code> and <code>digitalWrite</code></td></tr>
-<tr><td><b>Disco Strobe Light</b></td><td>Array-based LED sequencing with microsecond timing via <code>delayMicroseconds</code></td></tr>
-<tr><td><b>Light Dimmer</b></td><td>PWM brightness control through <code>analogWrite</code>, mapping a 10k potentiometer to real-time PWM output</td></tr>
-<tr><td><b>Memory Game</b></td><td>State machine design, random sequence generation, button debouncing and buzzer feedback</td></tr>
-<tr><td><b>Plant Monitor</b></td><td>Analog soil moisture sensing with threshold alerting and serial data logging</td></tr>
-</table>
+<ul>
+<li><b>Controlled LED</b> &mdash; digital input and output, GPIO control with <code>pinMode</code>, <code>digitalRead</code> and <code>digitalWrite</code></li>
+<li><b>Disco Strobe Light</b> &mdash; array-based LED sequencing with microsecond timing via <code>delayMicroseconds</code></li>
+<li><b>Light Dimmer</b> &mdash; PWM brightness control through <code>analogWrite</code>, mapping a 10k potentiometer to real-time PWM output</li>
+<li><b>Memory Game</b> &mdash; state machine design, random sequence generation, button debouncing and buzzer feedback</li>
+<li><b>Plant Monitor</b> &mdash; analog soil moisture sensing with threshold alerting and serial data logging</li>
+</ul>
 
 </td>
-<td width="34%" valign="top">
+<td width="30%" valign="top">
 
-<img src="https://img.shields.io/badge/Embedded_C%2FC%2B%2B-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Embedded C and C plus plus" /><br/>
-<img src="https://img.shields.io/badge/Arduino-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Arduino" /><br/>
-<img src="https://img.shields.io/badge/PWM-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="PWM" /><br/>
-<img src="https://img.shields.io/badge/Analog_Sensors-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="Analog sensors" /><br/>
-<img src="https://img.shields.io/badge/State_Machines-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="State machines" /><br/>
-<img src="https://img.shields.io/badge/UART_Serial-8B0020?style=for-the-badge&labelColor=0A0117&color=DC143C" alt="UART serial" /><br/><br/>
-<a href="https://github.com/youseffahem/Arduino-Projects-Collection"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-0A0117?style=for-the-badge&logo=github&logoColor=FF9CC8&color=8B0020" alt="View the Arduino Projects Collection repository" /></a>
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="" />
-  <h3>Further Work</h3>
-</div>
-
-<table>
-<tr>
-<td width="33%" valign="top" align="center">
-
-<h4><a href="https://github.com/youseffahem/hand-gesture-volume-control">Hand Gesture Volume Control</a></h4>
-
-<img src="https://img.shields.io/badge/OpenCV-0A0117?style=flat-square&color=DC143C" alt="OpenCV" />
-<img src="https://img.shields.io/badge/MediaPipe-0A0117?style=flat-square&color=DC143C" alt="MediaPipe" />
-<img src="https://img.shields.io/badge/PyCAW-0A0117?style=flat-square&color=DC143C" alt="PyCAW" />
-
-<p align="left">Real-time hands-free volume control. MediaPipe tracks 21 hand landmarks, the Euclidean distance between thumb tip and index tip is linearly interpolated to a 0&ndash;100 percent level, and PyCAW drives the Windows Core Audio API. On-screen volume bar and live FPS readout.</p>
-
-</td>
-<td width="33%" valign="top" align="center">
-
-<h4><a href="https://github.com/youseffahem/Digits-Classifier-Comparison">Digits Classifier Comparison</a></h4>
-
-<img src="https://img.shields.io/badge/scikit--learn-0A0117?style=flat-square&color=FF2D75" alt="scikit-learn" />
-<img src="https://img.shields.io/badge/NumPy-0A0117?style=flat-square&color=FF2D75" alt="NumPy" />
-<img src="https://img.shields.io/badge/Matplotlib-0A0117?style=flat-square&color=FF2D75" alt="Matplotlib" />
-
-<p align="left">A controlled comparison of SVM against a Decision Tree on the scikit-learn digits set &mdash; 1,797 samples of 8&times;8 grayscale images, 70/30 stratified split. SVM reaches 98.89 percent accuracy against the Decision Tree's 85.28 percent, with confusion matrices and comparison plots committed.</p>
-
-</td>
-<td width="33%" valign="top" align="center">
-
-<h4><a href="https://github.com/youseffahem/Hospital-Management-System">Hospital Management System</a></h4>
-
-<img src="https://img.shields.io/badge/C%2B%2B-0A0117?style=flat-square&color=8B0020" alt="C plus plus" />
-<img src="https://img.shields.io/badge/Data_Structures-0A0117?style=flat-square&color=8B0020" alt="Data structures" />
-
-<p align="left">A C++ console application modelling hospital branches, doctors and patients as singly linked lists, with insertion, traversal, search and delete-by-id across each entity. Class-based separation per entity type. Written as a data structures exercise, with its own limitations documented.</p>
-
-</td>
-</tr>
-</table>
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-<img src="./assets/section-activity.svg" width="100%" alt="Section: Activity" />
-
-<div align="center">
-
-<img width="88%" src="https://streak-stats.demolab.com?user=youseffahem&hide_border=true&background=0A0117&stroke=DC143C&ring=FF2D75&fire=FF4D9E&currStreakLabel=FFB3D2&sideLabels=9B7A96&currStreakNum=F5E6F0&sideNums=F5E6F0&dates=6B5566&excludeDaysLabel=6B5566" alt="GitHub contribution streak" />
+<b>STACK</b><br/>
+<sub>Embedded C/C++ &middot; Arduino Uno, Nano and Mega &middot; PWM &middot; GPIO &middot; UART serial &middot; Analog sensing &middot; State machines &middot; Arduino IDE</sub>
 
 <br/><br/>
 
-<img width="94%" src="https://ghchart.rshah.org/DC143C/youseffahem" alt="GitHub contribution graph for the past year" />
+<b>AT A GLANCE</b><br/>
+<sub>5 projects<br/>8-bit microcontrollers<br/>Circuit diagram and demo per project</sub>
 
-</div>
+<br/><br/>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<a href="https://github.com/youseffahem/Arduino-Projects-Collection"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-60A5FA?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0B1120" alt="View the Arduino Projects Collection repository" /></a>
 
-<img src="./assets/section-connect.svg" width="100%" alt="Section: Connect" />
+</td>
+</tr>
+</table>
+
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/divider.svg" /><img src="./assets/divider.svg" width="100%" alt="" /></picture>
+
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/section-further.svg" /><img src="./assets/section-further.svg" width="100%" alt="Section: Further work, smaller systems and experiments." /></picture>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+<a href="https://github.com/youseffahem/hand-gesture-volume-control">
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/mini-gesture.svg" /><img src="./assets/mini-gesture.svg" width="100%" alt="Hand Gesture Volume Control. MediaPipe tracks 21 hand landmarks; the distance between the thumb tip and index tip is mapped to a volume level between 0 and 100 percent, driven through PyCAW into the Windows Core Audio API." /></picture>
+</a>
+
+<p align="left"><sub>Real-time hands-free volume control. MediaPipe tracks 21 hand landmarks, the Euclidean distance between thumb tip and index tip is linearly interpolated to a 0&ndash;100 percent level, and PyCAW drives the Windows Core Audio API. On-screen volume bar and live FPS readout.</sub></p>
+
+<a href="https://github.com/youseffahem/hand-gesture-volume-control"><sub><b>View repository &rarr;</b></sub></a>
+
+</td>
+<td width="33%" valign="top">
+
+<a href="https://github.com/youseffahem/Digits-Classifier-Comparison">
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/mini-digits.svg" /><img src="./assets/mini-digits.svg" width="100%" alt="Digits Classifier Comparison. A controlled comparison of a support vector machine against a decision tree on the scikit-learn digits dataset: 1,797 samples of 8 by 8 grayscale images with a 70/30 stratified split. SVM reaches 98.89 percent accuracy against the decision tree's 85.28 percent." /></picture>
+</a>
+
+<p align="left"><sub>A controlled comparison of SVM against a Decision Tree on the scikit-learn digits set &mdash; 1,797 samples of 8&times;8 grayscale images, 70/30 stratified split. SVM reaches 98.89 percent accuracy against the Decision Tree's 85.28 percent, with confusion matrices and comparison plots committed.</sub></p>
+
+<a href="https://github.com/youseffahem/Digits-Classifier-Comparison"><sub><b>View repository &rarr;</b></sub></a>
+
+</td>
+<td width="33%" valign="top">
+
+<a href="https://github.com/youseffahem/Hospital-Management-System">
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/mini-hospital.svg" /><img src="./assets/mini-hospital.svg" width="100%" alt="Hospital Management System. A C++ console application modelling hospital branches, doctors and patients as singly linked lists, with insertion, traversal, search and delete by id across each entity." /></picture>
+</a>
+
+<p align="left"><sub>A C++ console application modelling hospital branches, doctors and patients as singly linked lists, with insertion, traversal, search and delete-by-id across each entity. Class-based separation per entity type. Written as a data structures exercise, with its own limitations documented.</sub></p>
+
+<a href="https://github.com/youseffahem/Hospital-Management-System"><sub><b>View repository &rarr;</b></sub></a>
+
+</td>
+</tr>
+</table>
+
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/divider.svg" /><img src="./assets/divider.svg" width="100%" alt="" /></picture>
+
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/section-activity.svg" /><img src="./assets/section-activity.svg" width="100%" alt="Section: Engineering activity, contributions, commits and development flow." /></picture>
+
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/devflow.svg" /><img src="./assets/devflow.svg" width="100%" alt="Development flow. Commits accumulate on the main branch with a feature branch that diverges and merges back, feeding a continuous integration pipeline: commit, build, test, deploy." /></picture>
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/yousef-fahem/"><img src="https://img.shields.io/badge/LINKEDIN-0A0117?style=for-the-badge&logo=linkedin&logoColor=FF9CC8&color=DC143C" alt="LinkedIn" /></a>
-<a href="mailto:yousef.fahem11@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0A0117?style=for-the-badge&logo=gmail&logoColor=FF9CC8&color=FF2D75" alt="Email" /></a>
-<a href="https://x.com/YousefFahem0"><img src="https://img.shields.io/badge/X-0A0117?style=for-the-badge&logo=x&logoColor=FF9CC8&color=8B0020" alt="X" /></a>
-<a href="https://github.com/youseffahem"><img src="https://img.shields.io/badge/GITHUB-0A0117?style=for-the-badge&logo=github&logoColor=FF9CC8&color=DC143C" alt="GitHub" /></a>
+<img width="74%" src="https://streak-stats.demolab.com?user=youseffahem&hide_border=true&background=0B1120&stroke=1E293B&ring=06B6D4&fire=8B5CF6&currStreakLabel=06B6D4&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&excludeDaysLabel=64748B" alt="GitHub contribution streak: total contributions, current streak and longest streak" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=youseffahem&theme=github_dark" alt="Top languages by repository" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=youseffahem&theme=github_dark" alt="Top languages by commit" />
+
+</div>
+
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/divider.svg" /><img src="./assets/divider.svg" width="100%" alt="" /></picture>
+
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/section-connect.svg" /><img src="./assets/section-connect.svg" width="100%" alt="Section: Connect. Links, education and certificates." /></picture>
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/yousef-fahem/"><img src="https://img.shields.io/badge/LINKEDIN-3B82F6?style=for-the-badge&logo=linkedin&logoColor=F8FAFC&labelColor=0B1120" alt="LinkedIn" /></a>
+<a href="mailto:yousef.fahem11@gmail.com"><img src="https://img.shields.io/badge/EMAIL-06B6D4?style=for-the-badge&logo=gmail&logoColor=F8FAFC&labelColor=0B1120" alt="Email" /></a>
+<a href="https://github.com/youseffahem"><img src="https://img.shields.io/badge/GITHUB-8B5CF6?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0B1120" alt="GitHub" /></a>
+<a href="https://x.com/YousefFahem0"><img src="https://img.shields.io/badge/X-64748B?style=for-the-badge&logo=x&logoColor=F8FAFC&labelColor=0B1120" alt="X" /></a>
 
 <br/><br/>
 
@@ -376,4 +327,4 @@
 
 </div>
 
-<img src="./assets/footer.svg" width="100%" alt="From the database layer to the microcontroller" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/static/footer.svg" /><img src="./assets/footer.svg" width="100%" alt="Youssef Fahem Amin. From the database layer to the microcontroller. System online, pipeline healthy." /></picture>

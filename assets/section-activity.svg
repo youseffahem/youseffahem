@@ -1,76 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Section: Activity" preserveAspectRatio="xMidYMid meet">
-<title>Section: Activity</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 88" width="1200" height="88" role="img" aria-label="Section heading: Engineering activity, contributions, commits and development flow." preserveAspectRatio="xMidYMid meet">
+<title>Section: Engineering Activity</title>
+
 <defs>
-  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0A0117"/>
-    <stop offset="0.5" stop-color="#150428"/>
-    <stop offset="1" stop-color="#0A0117"/>
-  </linearGradient>
-  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#DC143C" stop-opacity="0.85"/>
-    <stop offset="0.5" stop-color="#FF2D75" stop-opacity="0.35"/>
-    <stop offset="1" stop-color="#DC143C" stop-opacity="0"/>
-  </linearGradient>
-  <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#FF2D75" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="#FF6BB0" stop-opacity="1"/>
-    <stop offset="1" stop-color="#FF2D75" stop-opacity="0"/>
-  </linearGradient>
-  <radialGradient id="bloom" cx="0.5" cy="0.5" r="0.5">
-    <stop offset="0" stop-color="#FF2D75" stop-opacity="0.30"/>
-    <stop offset="1" stop-color="#FF2D75" stop-opacity="0"/>
-  </radialGradient>
-  <linearGradient id="acc" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#FF4D9E"/>
-    <stop offset="1" stop-color="#8B0020"/>
-  </linearGradient>
-  <filter id="sg" x="-60%" y="-160%" width="220%" height="420%">
-    <feGaussianBlur stdDeviation="3.4" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="sgs" x="-200%" y="-200%" width="500%" height="500%">
-    <feGaussianBlur stdDeviation="2" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="blur18"><feGaussianBlur stdDeviation="18"/></filter>
-  <style>
-    .bar{animation:bg 3.2s ease-in-out infinite}
-    @keyframes bg{0%,100%{opacity:.5}50%{opacity:1}}
-    .mote{fill:#FF8FC4;animation:mv 11s ease-in-out infinite}
-    @keyframes mv{0%,100%{opacity:.15;transform:translateY(0)}50%{opacity:.7;transform:translateY(-9px)}}
-    text{font-family:'JetBrains Mono','Fira Code',ui-monospace,'SFMono-Regular',Consolas,monospace}
-  </style>
-</defs>
-
-<rect x="1" y="1" width="1198" height="94" rx="14" fill="url(#panel)"/>
-<ellipse cx="150" cy="48" rx="240" ry="60" fill="url(#bloom)" filter="url(#blur18)">
-  <animateTransform attributeName="transform" type="translate" values="0,0; 90,0; 0,0" dur="19s" repeatCount="indefinite"/>
-</ellipse>
-<rect x="1" y="1" width="1198" height="94" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.4"/>
-
-<rect x="300" y="1" width="600" height="1.6" fill="url(#topline)" opacity="0.85">
-  <animate attributeName="x" values="-600;1200" dur="8s" repeatCount="indefinite"/>
-</rect>
-
-<rect class="bar" x="30" y="26" width="4.5" height="44" rx="2.25" fill="url(#acc)" filter="url(#sgs)"/>
-
-<text x="52" y="42" font-size="14" font-weight="600" letter-spacing="2.6" fill="#FF4D9E" opacity="0.9">04 / SIGNAL</text>
-<text x="52" y="70" font-size="34" font-weight="700" letter-spacing="6.5" fill="#F5E6F0" filter="url(#sg)">ACTIVITY</text>
-
-<g>
-  <circle class="mote" cx="1010" cy="34" r="1.8" style="animation-delay:0s"/>
-  <circle class="mote" cx="1064" cy="62" r="1.4" style="animation-delay:2.2s"/>
-  <circle class="mote" cx="1112" cy="30" r="1.6" style="animation-delay:4.4s"/>
-  <circle class="mote" cx="962" cy="66" r="1.2" style="animation-delay:6.6s"/>
-</g>
-
-<g transform="translate(1150 48)">
-  <circle r="4.5" fill="none" stroke="#FF2D75" stroke-width="1" opacity="0.5"/>
-  <circle r="2" fill="#FF6BB0" filter="url(#sgs)">
-    <animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" repeatCount="indefinite"/>
-  </circle>
-</g>
-<path d="M1090,48 L1136,48" stroke="#DC143C" stroke-width="1" stroke-dasharray="4 6" opacity="0.6">
-  <animate attributeName="stroke-dashoffset" values="20;0" dur="1.8s" repeatCount="indefinite"/>
-</path>
+<linearGradient id="pg" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#0F172A"/><stop offset="1" stop-color="#0B1120"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22C55E" stop-opacity="0.75"/><stop offset="0.45" stop-color="#243044" stop-opacity="0.9"/><stop offset="1" stop-color="#1E293B" stop-opacity="0.6"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22C55E"/><stop offset="1" stop-color="#22C55E" stop-opacity="0.25"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22C55E" stop-opacity="0"/><stop offset="0.5" stop-color="#22C55E" stop-opacity="0.9"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></linearGradient>
+<radialGradient id="bloom" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#22C55E" stop-opacity="0.16"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#101D30" stroke-width="1"/></pattern>
+<filter id="sg" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="sf"><feGaussianBlur stdDeviation="20"/></filter>
+<style>
+text{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace}.sans{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}
+.sw{animation:sw 6.5s linear infinite}@keyframes sw{from{transform:translateX(-460px)}to{transform:translateX(1200px)}}
+.ab{animation:ab 3s ease-in-out infinite}@keyframes ab{0%,100%{opacity:.55}50%{opacity:1}}
+.pn{transform-box:fill-box;transform-origin:center;animation:pn 2.8s ease-in-out infinite}@keyframes pn{0%,100%{opacity:.45;transform:scale(.82)}50%{opacity:1;transform:scale(1.15)}}
+.lk{animation:lk 2.8s linear infinite}@keyframes lk{from{stroke-dashoffset:117}to{stroke-dashoffset:0}}
+.sb{animation:sb 2.8s ease-in-out infinite}@keyframes sb{0%,100%{opacity:.28}45%{opacity:1}}
+.sl{animation:sl 2.8s ease-in-out infinite}@keyframes sl{0%{transform:translateX(0)}50%{transform:translateX(176px)}100%{transform:translateX(0)}}
+.bar{animation:bar 2.8s ease-in-out infinite}@keyframes bar{0%{stroke-dashoffset:22}30%{stroke-dashoffset:0}85%{stroke-dashoffset:0}100%{stroke-dashoffset:22}}
+.dt{animation:dt 2.8s ease-in-out infinite}@keyframes dt{0%,100%{opacity:.18}45%{opacity:.95}}
+.draw{animation:draw 3.6s ease-in-out infinite}@keyframes draw{0%{stroke-dashoffset:260}45%{stroke-dashoffset:0}88%{stroke-dashoffset:0}100%{stroke-dashoffset:-260}}
+.wv{transform-box:fill-box;transform-origin:center;animation:wv 2.25s ease-out infinite}@keyframes wv{0%{opacity:.8;transform:scale(.45)}100%{opacity:0;transform:scale(2.6)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<rect x="1" y="1" width="1198" height="86" rx="12" fill="url(#pg)"/>
+<rect x="1" y="1" width="1198" height="86" rx="12" fill="url(#grid)" opacity="0.5"/>
+<ellipse cx="120" cy="44" rx="230" ry="60" fill="url(#bloom)" filter="url(#sf)"/>
+<rect x="1" y="1" width="1198" height="86" rx="12" fill="none" stroke="url(#edge)" stroke-width="1.3"/>
+<g><rect class="sw" x="0" y="1" width="460" height="1.5" fill="url(#tl)"/></g>
+<rect class="ab" x="26" y="22" width="4" height="44" rx="2" fill="url(#acc)" filter="url(#sg)"/>
+<text x="46" y="36" font-size="10" letter-spacing="2.6" fill="#22C55E" opacity="0.92">05 / TELEMETRY</text>
+<text class="sans" x="46" y="68" font-size="27" font-weight="800" letter-spacing="4.6" fill="#F8FAFC">ENGINEERING ACTIVITY</text>
+<text x="544" y="66" font-size="9.5" letter-spacing="1.5" fill="#64748B">contributions &#183; commits &#183; development flow</text>
+<path d="M526,52 V72" stroke="#243044" stroke-width="1"/>
+<rect class="sb" x="996" y="58.8" width="6" height="7.2" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:0.00s"/><rect class="sb" x="1009" y="54.3" width="6" height="11.7" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:0.11s"/><rect class="sb" x="1022" y="60.6" width="6" height="5.4" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:0.22s"/><rect class="sb" x="1035" y="50.7" width="6" height="15.3" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:0.33s"/><rect class="sb" x="1048" y="56.1" width="6" height="9.9" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:0.44s"/><rect class="sb" x="1061" y="48.0" width="6" height="18.0" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:0.55s"/><rect class="sb" x="1074" y="57.9" width="6" height="8.1" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:0.66s"/><rect class="sb" x="1087" y="52.5" width="6" height="13.5" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:0.77s"/><rect class="sb" x="1100" y="46.2" width="6" height="19.8" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:0.88s"/><rect class="sb" x="1113" y="55.2" width="6" height="10.8" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:0.99s"/><rect class="sb" x="1126" y="49.8" width="6" height="16.2" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:1.10s"/><rect class="sb" x="1139" y="57.0" width="6" height="9.0" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:1.21s"/><rect class="sb" x="1152" y="47.1" width="6" height="18.9" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:1.32s"/><rect class="sb" x="1165" y="53.4" width="6" height="12.6" rx="1.5" fill="#22C55E" fill-opacity="0.32" style="animation-delay:1.43s"/><path d="M999.0,49.2 L1012.0,41.2 L1025.0,52.4 L1038.0,34.8 L1051.0,44.4 L1064.0,30.0 L1077.0,47.6 L1090.0,38.0 L1103.0,26.8 L1116.0,42.8 L1129.0,33.2 L1142.0,46.0 L1155.0,28.4 L1168.0,39.6" fill="none" stroke="#243044" stroke-width="1.4"/><path class="draw" d="M999.0,49.2 L1012.0,41.2 L1025.0,52.4 L1038.0,34.8 L1051.0,44.4 L1064.0,30.0 L1077.0,47.6 L1090.0,38.0 L1103.0,26.8 L1116.0,42.8 L1129.0,33.2 L1142.0,46.0 L1155.0,28.4 L1168.0,39.6" fill="none" stroke="#22C55E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="260"/><path d="M992,67 H1176" stroke="#243044" stroke-width="1"/>
 </svg>

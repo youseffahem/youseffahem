@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 460 566" width="460" height="566" role="img" aria-label="Intelligent systems architecture. Six layers flow downward: data sources, processing, machine learning, backend, application, and real-world impact. Below them, six engineering domains: backend, machine learning, computer vision, mobile, embedded and testing." preserveAspectRatio="xMidYMid meet">
+<title>Static (reduced motion): Intelligent systems architecture</title>
+
+<defs>
+<linearGradient id="pg" x1="0" y1="0" x2="0.5" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="1" stop-color="#050A12"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#06B6D4" stop-opacity="0"/><stop offset="0.5" stop-color="#06B6D4" stop-opacity="0.9"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></linearGradient>
+<radialGradient id="bl" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.16"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="23" height="23" patternUnits="userSpaceOnUse"><path d="M23 0H0V23" fill="none" stroke="#101D30" stroke-width="1"/></pattern>
+<filter id="ag" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="asoft"><feGaussianBlur stdDeviation="24"/></filter>
+<style>
+text{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace}.sans{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}
+.sw{}
+.hl{opacity:0;}
+.led{}
+.drop{}
+.chev{}
+.gl{}
+.dch{}
+.spin{transform-box:fill-box;transform-origin:center;}
+@media (prefers-reduced-motion:reduce){*{}}
+*{animation:none!important}.tp{transform:none!important}.hl,.stg,.nact,.drop,.scan{opacity:0!important}.tick,.ok{opacity:1!important;transform:none!important}.duty{opacity:0!important}.duty-base{opacity:1!important}.req,.res,.pkt,.bus,.fl,.run,.dp,.up,.dn,.trav,.vec{opacity:0!important}</style></defs>
+<rect x="1" y="1" width="458" height="564" rx="14" fill="url(#pg)"/>
+<rect x="1" y="1" width="458" height="564" rx="14" fill="url(#grid)" opacity="0.55"/>
+<ellipse cx="230" cy="250" rx="240" ry="220" fill="url(#bl)" filter="url(#asoft)"/>
+<rect x="1" y="1" width="458" height="564" rx="14" fill="none" stroke="#1E293B" stroke-width="1.4"/>
+<g><rect class="sw" x="0" y="1" width="200" height="1.5" fill="url(#tl)"/></g>
+<text class="sans" x="26" y="34" font-size="14" font-weight="700" letter-spacing="2.6" fill="#F8FAFC">SYSTEM ARCHITECTURE</text>
+<circle class="gl" cx="360" cy="29" r="3" fill="#22C55E"/>
+<text x="370" y="33" font-size="8.5" letter-spacing="1.2" fill="#64748B">DATA FLOW</text>
+<text x="26" y="52" font-size="8.5" letter-spacing="1.6" fill="#475569">raw signal &#8594; engineered feature &#8594; deployed system</text>
+<path d="M26,62 H434" stroke="#1E293B" stroke-width="1"/>
+<g>
+<rect x="26" y="74" width="408" height="46" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="26" y="74" width="408" height="46" rx="8" fill="#06B6D4" fill-opacity="0.09" stroke="#06B6D4" stroke-width="1.3" />
+<path d="M27,81 V113" stroke="#06B6D4" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<text x="42" y="93" font-size="8" letter-spacing="1.4" fill="#475569">01</text>
+<text class="sans" x="64" y="95" font-size="13.5" font-weight="700" letter-spacing="1.6" fill="#06B6D4">DATA</text>
+<text x="64" y="111" font-size="9" letter-spacing="0.5" fill="#64748B">datasets &#183; sensors &#183; records</text>
+<circle class="led" cx="421" cy="85" r="2.8" fill="#06B6D4" />
+<rect class="gl" x="375" y="86.0" width="26" height="7" rx="3" fill="none" stroke="#06B6D4" stroke-width="1.2" /><rect class="gl" x="375" y="95.0" width="26" height="7" rx="3" fill="none" stroke="#06B6D4" stroke-width="1.2" /><rect class="gl" x="375" y="104.0" width="26" height="7" rx="3" fill="none" stroke="#06B6D4" stroke-width="1.2" />
+</g>
+<path d="M230,122 V134" stroke="#243044" stroke-width="1" stroke-dasharray="2 3"/>
+<path class="chev" d="M225,128 L230,133 L235,128" fill="none" stroke="#06B6D4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<circle class="drop" cx="230" cy="128" r="2.4" fill="#06B6D4" filter="url(#ag)" />
+<g>
+<rect x="26" y="136" width="408" height="46" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="26" y="136" width="408" height="46" rx="8" fill="#06B6D4" fill-opacity="0.09" stroke="#06B6D4" stroke-width="1.3" />
+<path d="M27,143 V175" stroke="#06B6D4" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<text x="42" y="155" font-size="8" letter-spacing="1.4" fill="#475569">02</text>
+<text class="sans" x="64" y="157" font-size="13.5" font-weight="700" letter-spacing="1.6" fill="#06B6D4">PROCESSING</text>
+<text x="64" y="173" font-size="9" letter-spacing="0.5" fill="#64748B">clean &#183; validate &#183; transform</text>
+<circle class="led" cx="421" cy="147" r="2.8" fill="#06B6D4" />
+<path d="M378,150.0 V172.0" stroke="#243044" stroke-width="1.4"/><path class="gl" d="M378,172.0 V156.0" stroke="#06B6D4" stroke-width="1.8" stroke-linecap="round" /><path d="M388,150.0 V172.0" stroke="#243044" stroke-width="1.4"/><path class="gl" d="M388,172.0 V150.0" stroke="#06B6D4" stroke-width="1.8" stroke-linecap="round" /><path d="M398,150.0 V172.0" stroke="#243044" stroke-width="1.4"/><path class="gl" d="M398,172.0 V160.0" stroke="#06B6D4" stroke-width="1.8" stroke-linecap="round" />
+</g>
+<path d="M230,184 V196" stroke="#243044" stroke-width="1" stroke-dasharray="2 3"/>
+<path class="chev" d="M225,190 L230,195 L235,190" fill="none" stroke="#06B6D4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<circle class="drop" cx="230" cy="190" r="2.4" fill="#06B6D4" filter="url(#ag)" />
+<g>
+<rect x="26" y="198" width="408" height="46" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="26" y="198" width="408" height="46" rx="8" fill="#8B5CF6" fill-opacity="0.09" stroke="#8B5CF6" stroke-width="1.3" />
+<path d="M27,205 V237" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<text x="42" y="217" font-size="8" letter-spacing="1.4" fill="#475569">03</text>
+<text class="sans" x="64" y="219" font-size="13.5" font-weight="700" letter-spacing="1.6" fill="#8B5CF6">MACHINE LEARNING</text>
+<text x="64" y="235" font-size="9" letter-spacing="0.5" fill="#64748B">features &#183; train &#183; evaluate</text>
+<circle class="led" cx="421" cy="209" r="2.8" fill="#8B5CF6" />
+<path d="M377,214.0 L399,217.0" stroke="#8B5CF6" stroke-width="0.7" opacity="0.45"/><path d="M377,214.0 L399,229.0" stroke="#8B5CF6" stroke-width="0.7" opacity="0.45"/><path d="M377,223.0 L399,217.0" stroke="#8B5CF6" stroke-width="0.7" opacity="0.45"/><path d="M377,223.0 L399,229.0" stroke="#8B5CF6" stroke-width="0.7" opacity="0.45"/><path d="M377,232.0 L399,217.0" stroke="#8B5CF6" stroke-width="0.7" opacity="0.45"/><path d="M377,232.0 L399,229.0" stroke="#8B5CF6" stroke-width="0.7" opacity="0.45"/><circle class="gl" cx="377" cy="214.0" r="2.6" fill="#8B5CF6" /><circle class="gl" cx="377" cy="223.0" r="2.6" fill="#8B5CF6" /><circle class="gl" cx="377" cy="232.0" r="2.6" fill="#8B5CF6" /><circle class="gl" cx="399" cy="217.0" r="2.6" fill="#8B5CF6" /><circle class="gl" cx="399" cy="229.0" r="2.6" fill="#8B5CF6" />
+</g>
+<path d="M230,246 V258" stroke="#243044" stroke-width="1" stroke-dasharray="2 3"/>
+<path class="chev" d="M225,252 L230,257 L235,252" fill="none" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<circle class="drop" cx="230" cy="252" r="2.4" fill="#8B5CF6" filter="url(#ag)" />
+<g>
+<rect x="26" y="260" width="408" height="46" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="26" y="260" width="408" height="46" rx="8" fill="#3B82F6" fill-opacity="0.09" stroke="#3B82F6" stroke-width="1.3" />
+<path d="M27,267 V299" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<text x="42" y="279" font-size="8" letter-spacing="1.4" fill="#475569">04</text>
+<text class="sans" x="64" y="281" font-size="13.5" font-weight="700" letter-spacing="1.6" fill="#3B82F6">BACKEND</text>
+<text x="64" y="297" font-size="9" letter-spacing="0.5" fill="#64748B">schema &#183; queries &#183; integrity</text>
+<circle class="led" cx="421" cy="271" r="2.8" fill="#3B82F6" />
+<rect x="375" y="272.0" width="26" height="7" rx="2" fill="none" stroke="#243044" stroke-width="1"/><circle class="gl" cx="380" cy="275.5" r="1.7" fill="#3B82F6" /><rect x="375" y="281.0" width="26" height="7" rx="2" fill="none" stroke="#243044" stroke-width="1"/><circle class="gl" cx="380" cy="284.5" r="1.7" fill="#3B82F6" /><rect x="375" y="290.0" width="26" height="7" rx="2" fill="none" stroke="#243044" stroke-width="1"/><circle class="gl" cx="380" cy="293.5" r="1.7" fill="#3B82F6" />
+</g>
+<path d="M230,308 V320" stroke="#243044" stroke-width="1" stroke-dasharray="2 3"/>
+<path class="chev" d="M225,314 L230,319 L235,314" fill="none" stroke="#3B82F6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<circle class="drop" cx="230" cy="314" r="2.4" fill="#3B82F6" filter="url(#ag)" />
+<g>
+<rect x="26" y="322" width="408" height="46" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="26" y="322" width="408" height="46" rx="8" fill="#3B82F6" fill-opacity="0.09" stroke="#3B82F6" stroke-width="1.3" />
+<path d="M27,329 V361" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<text x="42" y="341" font-size="8" letter-spacing="1.4" fill="#475569">05</text>
+<text class="sans" x="64" y="343" font-size="13.5" font-weight="700" letter-spacing="1.6" fill="#3B82F6">APPLICATION</text>
+<text x="64" y="359" font-size="9" letter-spacing="0.5" fill="#64748B">web &#183; mobile &#183; embedded</text>
+<circle class="led" cx="421" cy="333" r="2.8" fill="#3B82F6" />
+<rect x="374" y="336.0" width="20" height="16" rx="2" fill="none" stroke="#3B82F6" stroke-width="1.2"/><path d="M374,341.0 H394" stroke="#3B82F6" stroke-width="1" opacity="0.6"/><rect class="gl" x="396" y="340.0" width="9" height="15" rx="2" fill="none" stroke="#3B82F6" stroke-width="1.2" />
+</g>
+<path d="M230,370 V382" stroke="#243044" stroke-width="1" stroke-dasharray="2 3"/>
+<path class="chev" d="M225,376 L230,381 L235,376" fill="none" stroke="#3B82F6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<circle class="drop" cx="230" cy="376" r="2.4" fill="#3B82F6" filter="url(#ag)" />
+<g>
+<rect x="26" y="384" width="408" height="46" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="26" y="384" width="408" height="46" rx="8" fill="#22C55E" fill-opacity="0.09" stroke="#22C55E" stroke-width="1.3" />
+<path d="M27,391 V423" stroke="#22C55E" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+<text x="42" y="403" font-size="8" letter-spacing="1.4" fill="#475569">06</text>
+<text class="sans" x="64" y="405" font-size="13.5" font-weight="700" letter-spacing="1.6" fill="#22C55E">IMPACT</text>
+<text x="64" y="421" font-size="9" letter-spacing="0.5" fill="#64748B">decisions &#183; automation</text>
+<circle class="led" cx="421" cy="395" r="2.8" fill="#22C55E" />
+<circle cx="388" cy="409.0" r="12" fill="none" stroke="#243044" stroke-width="1"/><circle class="gl" cx="388" cy="409.0" r="7.5" fill="none" stroke="#22C55E" stroke-width="1.2" /><circle cx="388" cy="409.0" r="2.8" fill="#22C55E"/>
+</g>
+<path d="M26,452 H434" stroke="#1E293B" stroke-width="1"/>
+<text x="26" y="472" font-size="9" letter-spacing="2.2" fill="#94A3B8">ENGINEERING DOMAINS</text>
+<text x="434" y="472" text-anchor="end" font-size="8.5" letter-spacing="1.2" fill="#475569">6 ACTIVE</text>
+<g><rect x="26" y="484" width="130" height="30" rx="6" fill="#0F172A" stroke="#243044" stroke-width="1"/><circle class="dch" cx="39" cy="499" r="3" fill="#3B82F6" /><text x="50" y="503" font-size="8" letter-spacing="0.8" fill="#94A3B8">BACKEND</text></g>
+<g><rect x="165" y="484" width="130" height="30" rx="6" fill="#0F172A" stroke="#243044" stroke-width="1"/><circle class="dch" cx="178" cy="499" r="3" fill="#8B5CF6" /><text x="189" y="503" font-size="8" letter-spacing="0.8" fill="#94A3B8">MACHINE LEARNING</text></g>
+<g><rect x="304" y="484" width="130" height="30" rx="6" fill="#0F172A" stroke="#243044" stroke-width="1"/><circle class="dch" cx="317" cy="499" r="3" fill="#8B5CF6" /><text x="328" y="503" font-size="8" letter-spacing="0.8" fill="#94A3B8">COMPUTER VISION</text></g>
+<g><rect x="26" y="520" width="130" height="30" rx="6" fill="#0F172A" stroke="#243044" stroke-width="1"/><circle class="dch" cx="39" cy="535" r="3" fill="#3B82F6" /><text x="50" y="539" font-size="8" letter-spacing="0.8" fill="#94A3B8">MOBILE</text></g>
+<g><rect x="165" y="520" width="130" height="30" rx="6" fill="#0F172A" stroke="#243044" stroke-width="1"/><circle class="dch" cx="178" cy="535" r="3" fill="#06B6D4" /><text x="189" y="539" font-size="8" letter-spacing="0.8" fill="#94A3B8">EMBEDDED</text></g>
+<g><rect x="304" y="520" width="130" height="30" rx="6" fill="#0F172A" stroke="#243044" stroke-width="1"/><circle class="dch" cx="317" cy="535" r="3" fill="#22C55E" /><text x="328" y="539" font-size="8" letter-spacing="0.8" fill="#94A3B8">TESTING</text></g>
+</svg>

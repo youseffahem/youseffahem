@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 88" width="1200" height="88" role="img" aria-label="Section heading: Featured projects, with architecture, implementation and results." preserveAspectRatio="xMidYMid meet">
+<title>Static (reduced motion): Section: Featured Projects</title>
+
+<defs>
+<linearGradient id="pg" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#0F172A"/><stop offset="1" stop-color="#0B1120"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.75"/><stop offset="0.45" stop-color="#243044" stop-opacity="0.9"/><stop offset="1" stop-color="#1E293B" stop-opacity="0.6"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0.25"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset="0.5" stop-color="#8B5CF6" stop-opacity="0.9"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient>
+<radialGradient id="bloom" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.16"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#101D30" stroke-width="1"/></pattern>
+<filter id="sg" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="sf"><feGaussianBlur stdDeviation="20"/></filter>
+<style>
+text{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace}.sans{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}
+.sw{}
+.ab{}
+.pn{transform-box:fill-box;transform-origin:center;}
+.lk{}
+.sb{}
+.sl{}
+.bar{}
+.dt{}
+.draw{}
+.wv{transform-box:fill-box;transform-origin:center;}
+@media (prefers-reduced-motion:reduce){*{}}
+*{animation:none!important}.tp{transform:none!important}.hl,.stg,.nact,.drop,.scan{opacity:0!important}.tick,.ok{opacity:1!important;transform:none!important}.duty{opacity:0!important}.duty-base{opacity:1!important}.req,.res,.pkt,.bus,.fl,.run,.dp,.up,.dn,.trav,.vec{opacity:0!important}</style></defs>
+<rect x="1" y="1" width="1198" height="86" rx="12" fill="url(#pg)"/>
+<rect x="1" y="1" width="1198" height="86" rx="12" fill="url(#grid)" opacity="0.5"/>
+<ellipse cx="120" cy="44" rx="230" ry="60" fill="url(#bloom)" filter="url(#sf)"/>
+<rect x="1" y="1" width="1198" height="86" rx="12" fill="none" stroke="url(#edge)" stroke-width="1.3"/>
+<g><rect class="sw" x="0" y="1" width="460" height="1.5" fill="url(#tl)"/></g>
+<rect class="ab" x="26" y="22" width="4" height="44" rx="2" fill="url(#acc)" filter="url(#sg)"/>
+<text x="46" y="36" font-size="10" letter-spacing="2.6" fill="#8B5CF6" opacity="0.92">03 / DEPLOYED SYSTEMS</text>
+<text class="sans" x="46" y="68" font-size="27" font-weight="800" letter-spacing="4.6" fill="#F8FAFC">FEATURED PROJECTS</text>
+<text x="475" y="66" font-size="9.5" letter-spacing="1.5" fill="#64748B">architecture &#183; implementation &#183; results</text>
+<path d="M457,52 V72" stroke="#243044" stroke-width="1"/>
+<rect x="1000" y="28" width="34" height="32" rx="5" fill="#162033" stroke="#243044" stroke-width="0.9"/><circle class="pn" cx="1007" cy="35" r="2.4" fill="#8B5CF6" /><path d="M1006,54 H1028" stroke="#243044" stroke-width="2" stroke-linecap="round"/><path class="bar" d="M1006,54 H1028" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" stroke-dasharray="22" /><rect x="1044" y="28" width="34" height="32" rx="5" fill="#162033" stroke="#243044" stroke-width="0.9"/><circle class="pn" cx="1051" cy="35" r="2.4" fill="#8B5CF6" /><path d="M1050,54 H1072" stroke="#243044" stroke-width="2" stroke-linecap="round"/><path class="bar" d="M1050,54 H1072" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" stroke-dasharray="22" /><rect x="1088" y="28" width="34" height="32" rx="5" fill="#162033" stroke="#243044" stroke-width="0.9"/><circle class="pn" cx="1095" cy="35" r="2.4" fill="#8B5CF6" /><path d="M1094,54 H1116" stroke="#243044" stroke-width="2" stroke-linecap="round"/><path class="bar" d="M1094,54 H1116" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" stroke-dasharray="22" /><rect x="1132" y="28" width="34" height="32" rx="5" fill="#162033" stroke="#243044" stroke-width="0.9"/><circle class="pn" cx="1139" cy="35" r="2.4" fill="#8B5CF6" /><path d="M1138,54 H1160" stroke="#243044" stroke-width="2" stroke-linecap="round"/><path class="bar" d="M1138,54 H1160" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" stroke-dasharray="22" />
+</svg>
