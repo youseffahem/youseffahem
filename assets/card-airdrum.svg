@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Space Drums architecture. A strike travels from webcam capture through perception of hand landmarks or red stick tips, a causal per-hand tracker, stroke and zone geometry and a commit state machine into the audio sample bank, while prediction feeds commit without ever importing geometry. Twelve import layers are enforced by import-linter: all seven contracts kept, zero broken, across 198 files and 564 dependencies. Two input modes: bare-hand fingertips and red-tip sticks." preserveAspectRatio="xMidYMid meet">
+<title>Space Drums architecture</title>
+
+<defs>
+<linearGradient id="pg" x1="0" y1="0" x2="0.55" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="0.5" stop-color="#0B1120"/><stop offset="1" stop-color="#050A12"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F43F5E" stop-opacity="0"/><stop offset="0.5" stop-color="#F43F5E" stop-opacity="0.9"/><stop offset="1" stop-color="#F43F5E" stop-opacity="0"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#101D30" stroke-width="1"/></pattern>
+<filter id="soft"><feGaussianBlur stdDeviation="30"/></filter>
+<radialGradient id="bl0" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#F43F5E" stop-opacity="0.13"/><stop offset="1" stop-color="#F43F5E" stop-opacity="0"/></radialGradient>
+<radialGradient id="bl1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.13"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F8FAFC"/><stop offset="0.55" stop-color="#FB7185"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<linearGradient id="pk" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F43F5E" stop-opacity="0"/><stop offset="0.6" stop-color="#F43F5E"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+<filter id="g2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="g3" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+text{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace}.sans{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}
+.sw{animation:sw 7s linear infinite}@keyframes sw{from{transform:translateX(-600px)}to{transform:translateX(1200px)}}
+.led{animation:led 2.4s ease-in-out infinite}@keyframes led{0%,100%{opacity:.35}50%{opacity:1}}
+.hl{opacity:0;animation:hl 6s ease-in-out infinite}@keyframes hl{0%,100%{opacity:0}5%{opacity:1}18%{opacity:0}}
+.chev{animation:chev 6s ease-in-out infinite}@keyframes chev{0%,100%{opacity:.28}9%{opacity:1}24%{opacity:.28}}
+.dash{animation:dash 2.4s linear infinite}@keyframes dash{to{stroke-dashoffset:-24}}
+.req{animation:req 6s linear infinite}@keyframes req{from{transform:translateX(0)}to{transform:translateX(1120px)}}
+.byp{animation:byp 3s linear infinite}@keyframes byp{from{transform:translateX(0)}to{transform:translateX(392px)}}
+.scanl{animation:scanl 3.6s steps(12,end) infinite}@keyframes scanl{from{transform:translateY(0)}to{transform:translateY(136.8px)}}
+.down{animation:down 1.2s linear infinite}@keyframes down{to{stroke-dashoffset:-14}}
+.x{animation:x 1.4s ease-in-out infinite}@keyframes x{0%,100%{opacity:.35}50%{opacity:1}}
+.cur{animation:cur 1s steps(2,start) infinite}@keyframes cur{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
+.mh{animation:mh 6s linear infinite}@keyframes mh{0%,46%{opacity:1}50%,96%{opacity:0}100%{opacity:1}}
+.ms{animation:ms 6s linear infinite}@keyframes ms{0%,46%{opacity:0}50%,96%{opacity:1}100%{opacity:0}}
+.bob{animation:bob 1s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(-3px)}50%{transform:translateY(4px)}}
+.ty0{transform-box:fill-box;transform-origin:100% 50%;animation:ty0 9s linear infinite}@keyframes ty0{0%,3.889%{transform:scaleX(1);animation-timing-function:steps(14,end)}8.867%{transform:scaleX(0)}94%{transform:scaleX(0)}97%,100%{transform:scaleX(1)}}
+.ty1{transform-box:fill-box;transform-origin:100% 50%;animation:ty1 9s linear infinite}@keyframes ty1{0%,14.978%{transform:scaleX(1);animation-timing-function:steps(3,end)}16.533%{transform:scaleX(0)}94%{transform:scaleX(0)}97%,100%{transform:scaleX(1)}}
+.ty2{transform-box:fill-box;transform-origin:100% 50%;animation:ty2 9s linear infinite}@keyframes ty2{0%,19.867%{transform:scaleX(1);animation-timing-function:steps(3,end)}21.422%{transform:scaleX(0)}94%{transform:scaleX(0)}97%,100%{transform:scaleX(1)}}
+.ty3{transform-box:fill-box;transform-origin:100% 50%;animation:ty3 9s linear infinite}@keyframes ty3{0%,24.756%{transform:scaleX(1);animation-timing-function:steps(3,end)}26.311%{transform:scaleX(0)}94%{transform:scaleX(0)}97%,100%{transform:scaleX(1)}}
+.ty4{transform-box:fill-box;transform-origin:100% 50%;animation:ty4 9s linear infinite}@keyframes ty4{0%,29.644%{transform:scaleX(1);animation-timing-function:steps(3,end)}31.2%{transform:scaleX(0)}94%{transform:scaleX(0)}97%,100%{transform:scaleX(1)}}
+.ty5{transform-box:fill-box;transform-origin:100% 50%;animation:ty5 9s linear infinite}@keyframes ty5{0%,34.533%{transform:scaleX(1);animation-timing-function:steps(3,end)}36.089%{transform:scaleX(0)}94%{transform:scaleX(0)}97%,100%{transform:scaleX(1)}}
+.ty6{transform-box:fill-box;transform-origin:100% 50%;animation:ty6 9s linear infinite}@keyframes ty6{0%,39.422%{transform:scaleX(1);animation-timing-function:steps(3,end)}40.978%{transform:scaleX(0)}94%{transform:scaleX(0)}97%,100%{transform:scaleX(1)}}
+.ty7{transform-box:fill-box;transform-origin:100% 50%;animation:ty7 9s linear infinite}@keyframes ty7{0%,44.311%{transform:scaleX(1);animation-timing-function:steps(3,end)}45.867%{transform:scaleX(0)}94%{transform:scaleX(0)}97%,100%{transform:scaleX(1)}}
+.ty8{transform-box:fill-box;transform-origin:100% 50%;animation:ty8 9s linear infinite}@keyframes ty8{0%,49.2%{transform:scaleX(1);animation-timing-function:steps(3,end)}50.756%{transform:scaleX(0)}94%{transform:scaleX(0)}97%,100%{transform:scaleX(1)}}
+.ty9{transform-box:fill-box;transform-origin:100% 50%;animation:ty9 9s linear infinite}@keyframes ty9{0%,54.089%{transform:scaleX(1);animation-timing-function:steps(3,end)}55.644%{transform:scaleX(0)}94%{transform:scaleX(0)}97%,100%{transform:scaleX(1)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<rect x="1" y="1" width="1198" height="378" rx="14" fill="url(#pg)"/>
+<rect x="1" y="1" width="1198" height="378" rx="14" fill="url(#grid)" opacity="0.5"/>
+<g filter="url(#soft)"><ellipse cx="180" cy="40" rx="320" ry="120" fill="url(#bl0)"/><ellipse cx="1000" cy="340" rx="320" ry="120" fill="url(#bl1)"/></g>
+<rect x="1" y="1" width="1198" height="378" rx="14" fill="none" stroke="#243044" stroke-width="1.3"/>
+<g><rect class="sw" x="0" y="1" width="600" height="1.6" fill="url(#tl)"/></g>
+<rect x="24" y="20" width="4" height="34" rx="2" fill="#F43F5E"/>
+<text class="sans" x="40" y="42" font-size="28" font-weight="800" letter-spacing="2.6" fill="url(#ttl)">SPACE DRUMS</text>
+<path d="M300,24 V50" stroke="#243044" stroke-width="1"/>
+<text x="316" y="32" font-size="10" letter-spacing="0.8" fill="#94A3B8">Webcam air drumming with causal strike detection and live audio</text>
+<text x="316" y="47" font-size="8.5" letter-spacing="1.5" fill="#475569">PYTHON 3.11 &#183; OPENCV &#183; MEDIAPIPE &#183; PYTORCH &#183; LIGHTGBM &#183; SOUNDDEVICE</text>
+<g><rect x="1130" y="18" width="46" height="38" rx="7" fill="#0F172A" stroke="#243044" stroke-width="1"/><text x="1153" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="0.6" fill="#FB7185">7</text><text x="1153" y="48" text-anchor="middle" font-size="7.5" letter-spacing="1.1" fill="#64748B">ZONES</text></g>
+<g><rect x="1076" y="18" width="46" height="38" rx="7" fill="#0F172A" stroke="#243044" stroke-width="1"/><text x="1099" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="0.6" fill="#FB7185">2</text><text x="1099" y="48" text-anchor="middle" font-size="7.5" letter-spacing="1.1" fill="#64748B">MODES</text></g>
+<g><rect x="1016.4" y="18" width="51.6" height="38" rx="7" fill="#0F172A" stroke="#243044" stroke-width="1"/><text x="1042.2" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="0.6" fill="#FB7185">12</text><text x="1042.2" y="48" text-anchor="middle" font-size="7.5" letter-spacing="1.1" fill="#64748B">LAYERS</text></g>
+<g><rect x="948.4" y="18" width="60" height="38" rx="7" fill="#0F172A" stroke="#243044" stroke-width="1"/><text x="978.4" y="36" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="0.6" fill="#FB7185">1,997</text><text x="978.4" y="48" text-anchor="middle" font-size="7.5" letter-spacing="1.1" fill="#64748B">TESTS</text></g>
+<path d="M24,68 H1176" stroke="#1E293B" stroke-width="1"/>
+<text x="24" y="80" font-size="8" letter-spacing="2.2" fill="#475569">STRIKE PATH</text>
+<text x="1176" y="80" text-anchor="end" font-size="8" letter-spacing="1.6" fill="#475569">CURRENT-FRAME CAUSALITY &#183; ONE MONOTONIC CLOCK &#183; PER-HAND INDEPENDENCE</text>
+<rect x="24" y="84" width="172" height="56" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="24" y="84" width="172" height="56" rx="8" fill="#06B6D4" fill-opacity="0.10" stroke="#06B6D4" stroke-width="1.3" style="animation-delay:0.00s"/>
+<path d="M25,91 V133" stroke="#06B6D4" stroke-width="2.6" stroke-linecap="round" opacity="0.8"/>
+<text x="36" y="100" font-size="7.5" letter-spacing="1.2" fill="#475569">01</text>
+<text x="36" y="114" font-size="11" font-weight="700" letter-spacing="1.2" fill="#06B6D4">CAPTURE</text>
+<text x="36" y="130" font-size="8" letter-spacing="0.4" fill="#64748B">webcam frames</text>
+<circle class="led" cx="185" cy="95" r="2.6" fill="#06B6D4" style="animation-delay:0.00s"/>
+<path class="chev" d="M204,107 L209,112 L204,117" fill="none" stroke="#06B6D4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.30s"/>
+<rect x="220" y="84" width="172" height="56" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="220" y="84" width="172" height="56" rx="8" fill="#A78BFA" fill-opacity="0.10" stroke="#A78BFA" stroke-width="1.3" style="animation-delay:0.80s"/>
+<path d="M221,91 V133" stroke="#A78BFA" stroke-width="2.6" stroke-linecap="round" opacity="0.8"/>
+<text x="232" y="100" font-size="7.5" letter-spacing="1.2" fill="#475569">02</text>
+<text x="232" y="114" font-size="11" font-weight="700" letter-spacing="1.2" fill="#A78BFA">PERCEPTION</text>
+<text x="232" y="130" font-size="8" letter-spacing="0.4" fill="#64748B">hand or red tip</text>
+<circle class="led" cx="381" cy="95" r="2.6" fill="#A78BFA" style="animation-delay:0.80s"/>
+<path class="chev" d="M400,107 L405,112 L400,117" fill="none" stroke="#A78BFA" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.10s"/>
+<rect x="416" y="84" width="172" height="56" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="416" y="84" width="172" height="56" rx="8" fill="#3B82F6" fill-opacity="0.10" stroke="#3B82F6" stroke-width="1.3" style="animation-delay:1.60s"/>
+<path d="M417,91 V133" stroke="#3B82F6" stroke-width="2.6" stroke-linecap="round" opacity="0.8"/>
+<text x="428" y="100" font-size="7.5" letter-spacing="1.2" fill="#475569">03</text>
+<text x="428" y="114" font-size="11" font-weight="700" letter-spacing="1.2" fill="#3B82F6">TRACKING</text>
+<text x="428" y="130" font-size="8" letter-spacing="0.4" fill="#64748B">causal, per hand</text>
+<circle class="led" cx="577" cy="95" r="2.6" fill="#3B82F6" style="animation-delay:1.60s"/>
+<path class="chev" d="M596,107 L601,112 L596,117" fill="none" stroke="#3B82F6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.90s"/>
+<rect x="612" y="84" width="172" height="56" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="612" y="84" width="172" height="56" rx="8" fill="#3B82F6" fill-opacity="0.10" stroke="#3B82F6" stroke-width="1.3" style="animation-delay:2.40s"/>
+<path d="M613,91 V133" stroke="#3B82F6" stroke-width="2.6" stroke-linecap="round" opacity="0.8"/>
+<text x="624" y="100" font-size="7.5" letter-spacing="1.2" fill="#475569">04</text>
+<text x="624" y="114" font-size="11" font-weight="700" letter-spacing="1.2" fill="#3B82F6">GEOMETRY</text>
+<text x="624" y="130" font-size="8" letter-spacing="0.4" fill="#64748B">stroke and zones</text>
+<circle class="led" cx="773" cy="95" r="2.6" fill="#3B82F6" style="animation-delay:2.40s"/>
+<path class="chev" d="M792,107 L797,112 L792,117" fill="none" stroke="#3B82F6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.70s"/>
+<rect x="808" y="84" width="172" height="56" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="808" y="84" width="172" height="56" rx="8" fill="#F43F5E" fill-opacity="0.10" stroke="#F43F5E" stroke-width="1.3" style="animation-delay:3.20s"/>
+<path d="M809,91 V133" stroke="#F43F5E" stroke-width="2.6" stroke-linecap="round" opacity="0.8"/>
+<text x="820" y="100" font-size="7.5" letter-spacing="1.2" fill="#475569">05</text>
+<text x="820" y="114" font-size="11" font-weight="700" letter-spacing="1.2" fill="#F43F5E">COMMIT</text>
+<text x="820" y="130" font-size="8" letter-spacing="0.4" fill="#64748B">state machine</text>
+<circle class="led" cx="969" cy="95" r="2.6" fill="#F43F5E" style="animation-delay:3.20s"/>
+<path class="chev" d="M988,107 L993,112 L988,117" fill="none" stroke="#F43F5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:3.50s"/>
+<rect x="1004" y="84" width="172" height="56" rx="8" fill="#0F172A" stroke="#243044" stroke-width="1"/>
+<rect class="hl" x="1004" y="84" width="172" height="56" rx="8" fill="#22C55E" fill-opacity="0.10" stroke="#22C55E" stroke-width="1.3" style="animation-delay:4.00s"/>
+<path d="M1005,91 V133" stroke="#22C55E" stroke-width="2.6" stroke-linecap="round" opacity="0.8"/>
+<text x="1016" y="100" font-size="7.5" letter-spacing="1.2" fill="#475569">06</text>
+<text x="1016" y="114" font-size="11" font-weight="700" letter-spacing="1.2" fill="#22C55E">AUDIO</text>
+<text x="1016" y="130" font-size="8" letter-spacing="0.4" fill="#64748B">sample bank, mixer</text>
+<circle class="led" cx="1165" cy="95" r="2.6" fill="#22C55E" style="animation-delay:4.00s"/>
+<path d="M30,112 H1170" stroke="#243044" stroke-width="1" stroke-dasharray="2 4" opacity="0.5"/>
+<rect class="req" x="30" y="110" width="14" height="4" rx="2" fill="url(#pk)" filter="url(#g2)" style="animation-delay:0.00s"/>
+<rect class="req" x="30" y="110" width="14" height="4" rx="2" fill="url(#pk)" filter="url(#g2)" style="animation-delay:-2.00s"/>
+<rect class="req" x="30" y="110" width="14" height="4" rx="2" fill="url(#pk)" filter="url(#g2)" style="animation-delay:-4.00s"/>
+<path class="dash" d="M502,140 V158 H894 V140" fill="none" stroke="#FB7185" stroke-width="1.1" stroke-dasharray="4 5" opacity="0.6"/>
+<rect x="616" y="151" width="164" height="14" rx="7" fill="#0B1120" stroke="#FB7185" stroke-opacity="0.5"/>
+<text x="698" y="161" text-anchor="middle" font-size="7.5" font-weight="700" letter-spacing="1.4" fill="#FDA4AF">PREDICTION &#183; ANTICIPATE</text>
+<text x="698" y="177" text-anchor="middle" font-size="7.5" letter-spacing="1.1" fill="#475569">feeds commit directly &#183; never imports geometry (no-peek)</text>
+<rect class="byp" x="502" y="156.5" width="12" height="3" rx="1.5" fill="url(#pk)" filter="url(#g2)" style="animation-delay:0.00s"/>
+<rect class="byp" x="502" y="156.5" width="12" height="3" rx="1.5" fill="url(#pk)" filter="url(#g2)" style="animation-delay:-1.50s"/>
+<rect x="24" y="188" width="590" height="180" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="38" y="206" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">LAYERED ARCHITECTURE</text>
+<text x="600" y="206" text-anchor="end" font-size="8" letter-spacing="1.1" fill="#475569">12 LAYERS &#183; IMPORTS POINT DOWN</text>
+<path d="M38,214 H600" stroke="#1E293B" stroke-width="1"/>
+<path class="down" d="M52,222 V351.4" stroke="#334155" stroke-width="1.4" stroke-dasharray="4 3"/>
+<path d="M48,348.4 L52,354.4 L56,348.4" fill="none" stroke="#475569" stroke-width="1.3"/>
+<rect x="68" y="220" width="332" height="9.0" rx="2.5" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="227" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">ablation</text>
+<rect x="68" y="231.4" width="332" height="9.0" rx="2.5" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="238.4" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">app &#183; live_eval</text>
+<rect x="68" y="242.8" width="332" height="9.0" rx="2.5" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="249.8" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">ui &#183; eval &#183; data &#183; calib</text>
+<rect x="68" y="254.2" width="332" height="9.0" rx="2.5" fill="#F43F5E" fill-opacity="0.12" stroke="#F43F5E" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="261.2" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">commit &#183; audio</text>
+<rect x="68" y="265.6" width="332" height="9.0" rx="2.5" fill="#FB7185" fill-opacity="0.12" stroke="#FB7185" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="272.6" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">prediction &#183; models</text>
+<rect x="68" y="277" width="332" height="9.0" rx="2.5" fill="#FB7185" fill-opacity="0.12" stroke="#FB7185" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="284" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">features &#183; geometry</text>
+<rect x="68" y="288.4" width="332" height="9.0" rx="2.5" fill="#3B82F6" fill-opacity="0.12" stroke="#3B82F6" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="295.4" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">tracking</text>
+<rect x="68" y="299.8" width="332" height="9.0" rx="2.5" fill="#3B82F6" fill-opacity="0.12" stroke="#3B82F6" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="306.8" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">stick</text>
+<rect x="68" y="311.2" width="332" height="9.0" rx="2.5" fill="#3B82F6" fill-opacity="0.12" stroke="#3B82F6" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="318.2" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">hands</text>
+<rect x="68" y="322.6" width="332" height="9.0" rx="2.5" fill="#06B6D4" fill-opacity="0.12" stroke="#06B6D4" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="329.6" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">capture</text>
+<rect x="68" y="334" width="332" height="9.0" rx="2.5" fill="#06B6D4" fill-opacity="0.12" stroke="#06B6D4" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="341" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">timing &#183; config</text>
+<rect x="68" y="345.4" width="332" height="9.0" rx="2.5" fill="#06B6D4" fill-opacity="0.12" stroke="#06B6D4" stroke-opacity="0.35" stroke-width="0.8"/>
+<text x="76" y="352.4" font-size="7.6" letter-spacing="0.5" fill="#CBD5E1">contracts</text>
+<rect class="scanl" x="68" y="220" width="332" height="9.0" rx="2.5" fill="#F8FAFC" fill-opacity="0.12" stroke="#F8FAFC" stroke-opacity="0.6" stroke-width="0.9"/>
+<path d="M401,258.7 H410" stroke="#F43F5E" stroke-width="1" stroke-dasharray="2 2" opacity="0.8"/>
+<g class="x" style="animation-delay:0.70s"><circle cx="416" cy="258.7" r="5" fill="#0B1120" stroke="#F43F5E" stroke-width="1.1"/><path d="M413.8,256.5 L418.2,260.9 M418.2,256.5 L413.8,260.9" stroke="#F43F5E" stroke-width="1.3" stroke-linecap="round"/></g>
+<text x="426" y="261.5" font-size="7.6" letter-spacing="0.4"><tspan font-weight="700" fill="#FDA4AF">commit-blind</tspan><tspan fill="#64748B"> sees only candidates</tspan></text>
+<path d="M401,270.1 H410" stroke="#F43F5E" stroke-width="1" stroke-dasharray="2 2" opacity="0.8"/>
+<g class="x" style="animation-delay:0.00s"><circle cx="416" cy="270.1" r="5" fill="#0B1120" stroke="#F43F5E" stroke-width="1.1"/><path d="M413.8,267.9 L418.2,272.3 M418.2,267.9 L413.8,272.3" stroke="#F43F5E" stroke-width="1.3" stroke-linecap="round"/></g>
+<text x="426" y="272.9" font-size="7.6" letter-spacing="0.4"><tspan font-weight="700" fill="#FDA4AF">no-peek</tspan><tspan fill="#64748B"> never imports geometry</tspan></text>
+<text x="426" y="329.6" font-size="7.2" letter-spacing="0.4" fill="#475569">L0: contracts imports nothing</text>
+<text x="426" y="346.7" font-size="7.2" letter-spacing="0.4" fill="#475569">enforced by lint-imports in tests</text>
+<rect x="634" y="188" width="290" height="180" rx="10" fill="#0B1120" stroke="#1E293B" stroke-width="1"/>
+<circle cx="648" cy="201" r="3" fill="#F43F5E" opacity="0.8"/><circle cx="659" cy="201" r="3" fill="#F59E0B" opacity="0.8"/><circle cx="670" cy="201" r="3" fill="#22C55E" opacity="0.8"/>
+<text x="684" y="204" font-size="8" letter-spacing="0.8" fill="#64748B">import contracts</text>
+<path d="M634,211 H924" stroke="#1E293B" stroke-width="1"/>
+<text x="646" y="226" font-size="10" textLength="84" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#22C55E">$ </tspan><tspan fill="#F8FAFC">lint-imports</tspan></text>
+<rect class="ty0" x="644" y="216" width="90" height="12.8" fill="#0B1120"/>
+<text x="646" y="238.8" font-size="10" textLength="222" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#94A3B8">Analyzed 198 files, 564 dependencies.</tspan></text>
+<rect class="ty1" x="644" y="228.8" width="228" height="12.8" fill="#0B1120"/>
+<text x="646" y="251.6" font-size="10" textLength="258" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#CBD5E1">layers </tspan><tspan fill="#334155">...............................</tspan><tspan fill="#22C55E" font-weight="700"> KEPT</tspan></text>
+<rect class="ty2" x="644" y="241.6" width="264" height="12.8" fill="#0B1120"/>
+<text x="646" y="264.4" font-size="10" textLength="258" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#CBD5E1">contracts-is-leaf </tspan><tspan fill="#334155">....................</tspan><tspan fill="#22C55E" font-weight="700"> KEPT</tspan></text>
+<rect class="ty3" x="644" y="254.4" width="264" height="12.8" fill="#0B1120"/>
+<text x="646" y="277.2" font-size="10" textLength="258" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#CBD5E1">l0-imports-only-contracts </tspan><tspan fill="#334155">............</tspan><tspan fill="#22C55E" font-weight="700"> KEPT</tspan></text>
+<rect class="ty4" x="644" y="267.2" width="264" height="12.8" fill="#0B1120"/>
+<text x="646" y="290" font-size="10" textLength="258" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#CBD5E1">capture-knows-nothing-downstream </tspan><tspan fill="#334155">.....</tspan><tspan fill="#22C55E" font-weight="700"> KEPT</tspan></text>
+<rect class="ty5" x="644" y="280" width="264" height="12.8" fill="#0B1120"/>
+<text x="646" y="302.8" font-size="10" textLength="258" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#CBD5E1">no-peek </tspan><tspan fill="#334155">..............................</tspan><tspan fill="#22C55E" font-weight="700"> KEPT</tspan></text>
+<rect class="ty6" x="644" y="292.8" width="264" height="12.8" fill="#0B1120"/>
+<text x="646" y="315.6" font-size="10" textLength="258" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#CBD5E1">labels-are-offline </tspan><tspan fill="#334155">...................</tspan><tspan fill="#22C55E" font-weight="700"> KEPT</tspan></text>
+<rect class="ty7" x="644" y="305.6" width="264" height="12.8" fill="#0B1120"/>
+<text x="646" y="328.4" font-size="10" textLength="258" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#CBD5E1">commit-blind </tspan><tspan fill="#334155">.........................</tspan><tspan fill="#22C55E" font-weight="700"> KEPT</tspan></text>
+<rect class="ty8" x="644" y="318.4" width="264" height="12.8" fill="#0B1120"/>
+<text x="646" y="341.2" font-size="10" textLength="168" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#22C55E">Contracts: 7 kept, 0 broken.</tspan></text>
+<rect class="ty9" x="644" y="331.2" width="174" height="12.8" fill="#0B1120"/>
+<text x="646" y="354" font-size="10" fill="#22C55E">$</text>
+<rect class="cur" x="658" y="345.5" width="6" height="10" fill="#F8FAFC" opacity="0.85"/>
+<rect x="936" y="188" width="240" height="180" rx="10" fill="#0F172A" fill-opacity="0.55" stroke="#1E293B" stroke-width="1"/>
+<text x="950" y="206" font-size="8.5" letter-spacing="1.8" fill="#94A3B8">INPUT MODE</text>
+<path d="M950,214 H1162" stroke="#1E293B" stroke-width="1"/>
+<rect x="950" y="222" width="98" height="20" rx="5" fill="#0B1120" stroke="#243044" stroke-width="1"/>
+<text x="999.0" y="235.5" text-anchor="middle" font-size="8.5" letter-spacing="1.2" fill="#475569">HAND</text>
+<g class="mh"><rect x="950" y="222" width="98" height="20" rx="5" fill="#F43F5E" fill-opacity="0.14" stroke="#F43F5E" stroke-width="1.1"/><text x="999.0" y="235.5" text-anchor="middle" font-size="8.5" letter-spacing="1.2" fill="#FDA4AF">HAND</text></g>
+<rect x="1056" y="222" width="106" height="20" rx="5" fill="#0B1120" stroke="#243044" stroke-width="1"/>
+<text x="1109.0" y="235.5" text-anchor="middle" font-size="8.5" letter-spacing="1.2" fill="#475569">RED-TIP</text>
+<g class="ms"><rect x="1056" y="222" width="106" height="20" rx="5" fill="#F43F5E" fill-opacity="0.14" stroke="#F43F5E" stroke-width="1.1"/><text x="1109.0" y="235.5" text-anchor="middle" font-size="8.5" letter-spacing="1.2" fill="#FDA4AF">RED-TIP</text></g>
+<g class="mh"><g class="bob"><path d="M1052,348 L1037,339.25" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1037,339.25 L1025.75,328" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1025.75,328 L1018.25,318" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1018.25,318 L1012,309.25" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1052,348 L1040.75,313" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1040.75,313 L1038.25,294.25" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1038.25,294.25 L1037,280.5" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1037,280.5 L1035.75,266.75" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1040.75,313 L1052,310.5" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1052,310.5 L1053.25,293" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1053.25,293 L1054.5,281.75" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1054.5,281.75 L1054.5,271.75" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1052,310.5 L1063.25,313" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1063.25,313 L1065.75,298" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1065.75,298 L1067,288" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1067,288 L1068.25,279.25" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1063.25,313 L1073.25,318" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1052,348 L1073.25,318" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1073.25,318 L1078.25,306.75" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1078.25,306.75 L1082,299.25" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><path d="M1082,299.25 L1084.5,291.75" stroke="#A78BFA" stroke-width="1.4" stroke-opacity="0.75"/><circle cx="1052" cy="348" r="2.1" fill="#C4B5FD"/><circle cx="1037" cy="339.25" r="2.1" fill="#C4B5FD"/><circle cx="1025.75" cy="328" r="2.1" fill="#C4B5FD"/><circle cx="1018.25" cy="318" r="2.1" fill="#C4B5FD"/><circle cx="1012" cy="309.25" r="2.1" fill="#C4B5FD"/><circle cx="1040.75" cy="313" r="2.1" fill="#C4B5FD"/><circle cx="1038.25" cy="294.25" r="2.1" fill="#C4B5FD"/><circle cx="1037" cy="280.5" r="2.1" fill="#C4B5FD"/><circle cx="1035.75" cy="266.75" r="2.1" fill="#C4B5FD"/><circle cx="1052" cy="310.5" r="2.1" fill="#C4B5FD"/><circle cx="1053.25" cy="293" r="2.1" fill="#C4B5FD"/><circle cx="1054.5" cy="281.75" r="2.1" fill="#C4B5FD"/><circle cx="1054.5" cy="271.75" r="2.1" fill="#C4B5FD"/><circle cx="1063.25" cy="313" r="2.1" fill="#C4B5FD"/><circle cx="1065.75" cy="298" r="2.1" fill="#C4B5FD"/><circle cx="1067" cy="288" r="2.1" fill="#C4B5FD"/><circle cx="1068.25" cy="279.25" r="2.1" fill="#C4B5FD"/><circle cx="1073.25" cy="318" r="2.1" fill="#C4B5FD"/><circle cx="1078.25" cy="306.75" r="2.1" fill="#C4B5FD"/><circle cx="1082" cy="299.25" r="2.1" fill="#C4B5FD"/><circle cx="1084.5" cy="291.75" r="2.1" fill="#C4B5FD"/><circle cx="1035.75" cy="266.75" r="4.2" fill="#F43F5E" filter="url(#g3)"/><circle cx="1035.75" cy="266.75" r="9" fill="none" stroke="#22D3EE" stroke-width="1" stroke-dasharray="2.5 2.5"/></g><text x="1022.75" y="269.75" text-anchor="end" font-size="7.5" letter-spacing="0.8" fill="#64748B">fingertip</text><text x="1056" y="361" text-anchor="middle" font-size="8.5" letter-spacing="0.6" fill="#94A3B8">--fingers</text></g>
+<g class="ms"><g class="bob"><line x1="1006" y1="338" x2="1096" y2="268" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/><line x1="1086" y1="275.8" x2="1096" y2="268" stroke="#F43F5E" stroke-width="6.5" stroke-linecap="round" filter="url(#g3)"/><circle cx="1006" cy="338" r="9" fill="#0F172A" stroke="#CBD5E1" stroke-opacity="0.75" stroke-width="1.3"/><rect x="1082" y="256" width="24" height="24" rx="3" fill="none" stroke="#22D3EE" stroke-width="1" stroke-dasharray="3 2"/></g><text x="1110" y="262" font-size="7.5" letter-spacing="0.8" fill="#64748B">marker</text><text x="1056" y="361" text-anchor="middle" font-size="8.5" letter-spacing="0.6" fill="#94A3B8">--red-tips</text></g>
+</svg>

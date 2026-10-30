@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 132" width="1200" height="132" role="img" aria-label="Space Drums engineering metrics: 1,997 tests passed in the full pytest suite, 48 architecture decision records, 24 project phases, 31 JSON schemas, 7 of 7 import contracts kept, and 5 pre-registered experiment plans." preserveAspectRatio="xMidYMid meet">
+<title>Static (reduced motion): Space Drums engineering metrics</title>
+
+<defs>
+<linearGradient id="pg" x1="0" y1="0" x2="0.55" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="0.5" stop-color="#0B1120"/><stop offset="1" stop-color="#050A12"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22C55E" stop-opacity="0"/><stop offset="0.5" stop-color="#22C55E" stop-opacity="0.9"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#101D30" stroke-width="1"/></pattern>
+<filter id="soft"><feGaussianBlur stdDeviation="30"/></filter>
+<radialGradient id="bl0" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#22C55E" stop-opacity="0.08"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+<radialGradient id="bl1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FB7185" stop-opacity="0.1"/><stop offset="1" stop-color="#FB7185" stop-opacity="0"/></radialGradient>
+<filter id="mg" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="odf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.2" stop-color="#FFFFFF"/><stop offset="0.8" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<mask id="odm" maskUnits="userSpaceOnUse" x="0" y="51" width="1200" height="40"><rect x="0" y="51" width="1200" height="40" fill="url(#odf)"/></mask>
+<style>
+text{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace}.sans{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}
+</style></defs>
+<rect x="1" y="1" width="1198" height="130" rx="14" fill="url(#pg)"/>
+<rect x="1" y="1" width="1198" height="130" rx="14" fill="url(#grid)" opacity="0.5"/>
+<g filter="url(#soft)"><ellipse cx="160" cy="20" rx="300" ry="90" fill="url(#bl0)"/><ellipse cx="1040" cy="110" rx="300" ry="90" fill="url(#bl1)"/></g>
+<rect x="1" y="1" width="1198" height="130" rx="14" fill="none" stroke="#243044" stroke-width="1.3"/>
+<rect x="20" y="14" width="183.33" height="104" rx="9" fill="#0F172A" fill-opacity="0.7" stroke="#1E293B" stroke-width="1"/>
+<rect x="34" y="14" width="30" height="2" rx="1" fill="#22C55E"/>
+<text x="34" y="37" font-size="9" letter-spacing="1.5" fill="#94A3B8">TESTS PASSED</text>
+<circle class="led" cx="189.33" cy="34" r="3" fill="#22C55E"/>
+<text x="34" y="101" font-size="8.5" letter-spacing="0.5" fill="#64748B">full pytest suite</text>
+<rect x="34" y="107.5" width="155.33" height="2" rx="1" fill="#1E293B"/>
+<text x="34" y="82" font-size="34" font-weight="700" fill="#22C55E">1</text>
+<text x="54.4" y="82" font-size="34" font-weight="700" fill="#22C55E">,</text>
+<text x="74.8" y="82" font-size="34" font-weight="700" fill="#22C55E">9</text>
+<text x="95.2" y="82" font-size="34" font-weight="700" fill="#22C55E">9</text>
+<text x="115.6" y="82" font-size="34" font-weight="700" fill="#22C55E">7</text>
+<rect x="34" y="107.5" width="155.33" height="2" rx="1" fill="#22C55E"/>
+<rect x="215.33" y="14" width="183.33" height="104" rx="9" fill="#0F172A" fill-opacity="0.7" stroke="#1E293B" stroke-width="1"/>
+<rect x="229.33" y="14" width="30" height="2" rx="1" fill="#3B82F6"/>
+<text x="229.33" y="37" font-size="9" letter-spacing="1.5" fill="#94A3B8">DECISION RECORDS</text>
+<circle class="led" cx="384.67" cy="34" r="3" fill="#3B82F6"/>
+<text x="229.33" y="101" font-size="8.5" letter-spacing="0.5" fill="#64748B">ADR-0001 &#8594; ADR-0048</text>
+<rect x="229.33" y="107.5" width="155.33" height="2" rx="1" fill="#1E293B"/>
+<text x="229.33" y="82" font-size="34" font-weight="700" fill="#3B82F6">4</text>
+<text x="249.73" y="82" font-size="34" font-weight="700" fill="#3B82F6">8</text>
+<rect x="229.33" y="107.5" width="155.33" height="2" rx="1" fill="#3B82F6"/>
+<rect x="410.67" y="14" width="183.33" height="104" rx="9" fill="#0F172A" fill-opacity="0.7" stroke="#1E293B" stroke-width="1"/>
+<rect x="424.67" y="14" width="30" height="2" rx="1" fill="#06B6D4"/>
+<text x="424.67" y="37" font-size="9" letter-spacing="1.5" fill="#94A3B8">PROJECT PHASES</text>
+<circle class="led" cx="580" cy="34" r="3" fill="#06B6D4"/>
+<text x="424.67" y="101" font-size="8.5" letter-spacing="0.5" fill="#64748B">definition &#8594; packaging</text>
+<rect x="424.67" y="107.5" width="155.33" height="2" rx="1" fill="#1E293B"/>
+<text x="424.67" y="82" font-size="34" font-weight="700" fill="#06B6D4">2</text>
+<text x="445.07" y="82" font-size="34" font-weight="700" fill="#06B6D4">4</text>
+<rect x="424.67" y="107.5" width="155.33" height="2" rx="1" fill="#06B6D4"/>
+<rect x="606" y="14" width="183.33" height="104" rx="9" fill="#0F172A" fill-opacity="0.7" stroke="#1E293B" stroke-width="1"/>
+<rect x="620" y="14" width="30" height="2" rx="1" fill="#8B5CF6"/>
+<text x="620" y="37" font-size="9" letter-spacing="1.5" fill="#94A3B8">JSON SCHEMAS</text>
+<circle class="led" cx="775.33" cy="34" r="3" fill="#8B5CF6"/>
+<text x="620" y="101" font-size="8.5" letter-spacing="0.5" fill="#64748B">versioned record contracts</text>
+<rect x="620" y="107.5" width="155.33" height="2" rx="1" fill="#1E293B"/>
+<text x="620" y="82" font-size="34" font-weight="700" fill="#8B5CF6">3</text>
+<text x="640.4" y="82" font-size="34" font-weight="700" fill="#8B5CF6">1</text>
+<rect x="620" y="107.5" width="155.33" height="2" rx="1" fill="#8B5CF6"/>
+<rect x="801.33" y="14" width="183.33" height="104" rx="9" fill="#0F172A" fill-opacity="0.7" stroke="#1E293B" stroke-width="1"/>
+<rect x="815.33" y="14" width="30" height="2" rx="1" fill="#A78BFA"/>
+<text x="815.33" y="37" font-size="9" letter-spacing="1.5" fill="#94A3B8">CONTRACTS KEPT</text>
+<circle class="led" cx="970.67" cy="34" r="3" fill="#A78BFA"/>
+<text x="815.33" y="101" font-size="8.5" letter-spacing="0.5" fill="#64748B">import-linter &#183; 0 broken</text>
+<rect x="815.33" y="107.5" width="155.33" height="2" rx="1" fill="#1E293B"/>
+<text x="815.33" y="82" font-size="34" font-weight="700" fill="#A78BFA">7</text>
+<rect x="815.33" y="107.5" width="155.33" height="2" rx="1" fill="#A78BFA"/>
+<rect x="996.67" y="14" width="183.33" height="104" rx="9" fill="#0F172A" fill-opacity="0.7" stroke="#1E293B" stroke-width="1"/>
+<rect x="1010.67" y="14" width="30" height="2" rx="1" fill="#FB7185"/>
+<text x="1010.67" y="37" font-size="9" letter-spacing="1.5" fill="#94A3B8">PRE-REGISTERED</text>
+<circle class="led" cx="1166" cy="34" r="3" fill="#FB7185"/>
+<text x="1010.67" y="101" font-size="8.5" letter-spacing="0.5" fill="#64748B">experiment plans</text>
+<rect x="1010.67" y="107.5" width="155.33" height="2" rx="1" fill="#1E293B"/>
+<text x="1010.67" y="82" font-size="34" font-weight="700" fill="#FB7185">5</text>
+<rect x="1010.67" y="107.5" width="155.33" height="2" rx="1" fill="#FB7185"/>
+</svg>
